@@ -1,0 +1,17 @@
+D:\Users\Gaston\Desktop\7-4-2025\Obligatorio 2025\Proyecto\Compartido\obj\Debug\net8.0\Compartido.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\Gaston\Desktop\7-4-2025\Obligatorio 2025\Proyecto\Compartido\obj\Debug\net8.0\Compartido.AssemblyInfoInputs.cache
+D:\Users\Gaston\Desktop\7-4-2025\Obligatorio 2025\Proyecto\Compartido\obj\Debug\net8.0\Compartido.AssemblyInfo.cs
+D:\Users\Gaston\Desktop\7-4-2025\Obligatorio 2025\Proyecto\Compartido\obj\Debug\net8.0\Compartido.csproj.CoreCompileInputs.cache
+D:\Users\Gaston\Desktop\7-4-2025\Obligatorio 2025\Proyecto\Compartido\bin\Debug\net8.0\Compartido.deps.json
+D:\Users\Gaston\Desktop\7-4-2025\Obligatorio 2025\Proyecto\Compartido\bin\Debug\net8.0\Compartido.dll
+D:\Users\Gaston\Desktop\7-4-2025\Obligatorio 2025\Proyecto\Compartido\bin\Debug\net8.0\Compartido.pdb
+D:\Users\Gaston\Desktop\7-4-2025\Obligatorio 2025\Proyecto\Compartido\bin\Debug\net8.0\LogicaNegocio.dll
+D:\Users\Gaston\Desktop\7-4-2025\Obligatorio 2025\Proyecto\Compartido\bin\Debug\net8.0\LogicaNegocio.pdb
+D:\Users\Gaston\Desktop\7-4-2025\Obligatorio 2025\Proyecto\Compartido\obj\Debug\net8.0\Compartido.csproj.AssemblyReference.cache
+D:\Users\Gaston\Desktop\7-4-2025\Obligatorio 2025\Proyecto\Compartido\obj\Debug\net8.0\Compartido.csproj.Up2Date
+D:\Users\Gaston\Desktop\7-4-2025\Obligatorio 2025\Proyecto\Compartido\obj\Debug\net8.0\Compartido.dll
+D:\Users\Gaston\Desktop\7-4-2025\Obligatorio 2025\Proyecto\Compartido\obj\Debug\net8.0\refint\Compartido.dll
+D:\Users\Gaston\Desktop\7-4-2025\Obligatorio 2025\Proyecto\Compartido\obj\Debug\net8.0\Compartido.pdb
+D:\Users\Gaston\Desktop\7-4-2025\Obligatorio 2025\Proyecto\Compartido\obj\Debug\net8.0\ref\Compartido.dll
+D:\Users\Gaston\Desktop\7-4-2025\Obligatorio 2025\Proyecto\Compartido\bin\Debug\net8.0\LogicaAccesosDatos.dll
+D:\Users\Gaston\Desktop\7-4-2025\Obligatorio 2025\Proyecto\Compartido\bin\Debug\net8.0\LogicaAccesosDatos.pdb

@@ -1,0 +1,285 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Users\\Gaston\\Desktop\\7-4-2025\\Obligatorio 2025\\Proyecto\\LogicaAplicacion\\LogicaAplicacion.csproj": {}
+  },
+  "projects": {
+    "D:\\Users\\Gaston\\Desktop\\7-4-2025\\Obligatorio 2025\\Proyecto\\Compartido\\Compartido.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Users\\Gaston\\Desktop\\7-4-2025\\Obligatorio 2025\\Proyecto\\Compartido\\Compartido.csproj",
+        "projectName": "Compartido",
+        "projectPath": "D:\\Users\\Gaston\\Desktop\\7-4-2025\\Obligatorio 2025\\Proyecto\\Compartido\\Compartido.csproj",
+        "packagesPath": "C:\\Users\\Gaston\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\Gaston\\Desktop\\7-4-2025\\Obligatorio 2025\\Proyecto\\Compartido\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Gaston\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Users\\Gaston\\Desktop\\7-4-2025\\Obligatorio 2025\\Proyecto\\LogicaAccesosDatos\\LogicaAccesosDatos.csproj": {
+                "projectPath": "D:\\Users\\Gaston\\Desktop\\7-4-2025\\Obligatorio 2025\\Proyecto\\LogicaAccesosDatos\\LogicaAccesosDatos.csproj"
+              },
+              "D:\\Users\\Gaston\\Desktop\\7-4-2025\\Obligatorio 2025\\Proyecto\\LogicaNegocio\\LogicaNegocio.csproj": {
+                "projectPath": "D:\\Users\\Gaston\\Desktop\\7-4-2025\\Obligatorio 2025\\Proyecto\\LogicaNegocio\\LogicaNegocio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Users\\Gaston\\Desktop\\7-4-2025\\Obligatorio 2025\\Proyecto\\LogicaAccesosDatos\\LogicaAccesosDatos.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Users\\Gaston\\Desktop\\7-4-2025\\Obligatorio 2025\\Proyecto\\LogicaAccesosDatos\\LogicaAccesosDatos.csproj",
+        "projectName": "LogicaAccesosDatos",
+        "projectPath": "D:\\Users\\Gaston\\Desktop\\7-4-2025\\Obligatorio 2025\\Proyecto\\LogicaAccesosDatos\\LogicaAccesosDatos.csproj",
+        "packagesPath": "C:\\Users\\Gaston\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\Gaston\\Desktop\\7-4-2025\\Obligatorio 2025\\Proyecto\\LogicaAccesosDatos\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Gaston\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Users\\Gaston\\Desktop\\7-4-2025\\Obligatorio 2025\\Proyecto\\LogicaNegocio\\LogicaNegocio.csproj": {
+                "projectPath": "D:\\Users\\Gaston\\Desktop\\7-4-2025\\Obligatorio 2025\\Proyecto\\LogicaNegocio\\LogicaNegocio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Users\\Gaston\\Desktop\\7-4-2025\\Obligatorio 2025\\Proyecto\\LogicaAplicacion\\LogicaAplicacion.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Users\\Gaston\\Desktop\\7-4-2025\\Obligatorio 2025\\Proyecto\\LogicaAplicacion\\LogicaAplicacion.csproj",
+        "projectName": "LogicaAplicacion",
+        "projectPath": "D:\\Users\\Gaston\\Desktop\\7-4-2025\\Obligatorio 2025\\Proyecto\\LogicaAplicacion\\LogicaAplicacion.csproj",
+        "packagesPath": "C:\\Users\\Gaston\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\Gaston\\Desktop\\7-4-2025\\Obligatorio 2025\\Proyecto\\LogicaAplicacion\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Gaston\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Users\\Gaston\\Desktop\\7-4-2025\\Obligatorio 2025\\Proyecto\\Compartido\\Compartido.csproj": {
+                "projectPath": "D:\\Users\\Gaston\\Desktop\\7-4-2025\\Obligatorio 2025\\Proyecto\\Compartido\\Compartido.csproj"
+              },
+              "D:\\Users\\Gaston\\Desktop\\7-4-2025\\Obligatorio 2025\\Proyecto\\LogicaAccesosDatos\\LogicaAccesosDatos.csproj": {
+                "projectPath": "D:\\Users\\Gaston\\Desktop\\7-4-2025\\Obligatorio 2025\\Proyecto\\LogicaAccesosDatos\\LogicaAccesosDatos.csproj"
+              },
+              "D:\\Users\\Gaston\\Desktop\\7-4-2025\\Obligatorio 2025\\Proyecto\\LogicaNegocio\\LogicaNegocio.csproj": {
+                "projectPath": "D:\\Users\\Gaston\\Desktop\\7-4-2025\\Obligatorio 2025\\Proyecto\\LogicaNegocio\\LogicaNegocio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Users\\Gaston\\Desktop\\7-4-2025\\Obligatorio 2025\\Proyecto\\LogicaNegocio\\LogicaNegocio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Users\\Gaston\\Desktop\\7-4-2025\\Obligatorio 2025\\Proyecto\\LogicaNegocio\\LogicaNegocio.csproj",
+        "projectName": "LogicaNegocio",
+        "projectPath": "D:\\Users\\Gaston\\Desktop\\7-4-2025\\Obligatorio 2025\\Proyecto\\LogicaNegocio\\LogicaNegocio.csproj",
+        "packagesPath": "C:\\Users\\Gaston\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\Gaston\\Desktop\\7-4-2025\\Obligatorio 2025\\Proyecto\\LogicaNegocio\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Gaston\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

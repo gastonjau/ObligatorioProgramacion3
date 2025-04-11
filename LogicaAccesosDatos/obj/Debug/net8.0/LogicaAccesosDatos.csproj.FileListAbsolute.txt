@@ -1,0 +1,17 @@
+D:\Users\Gaston\Desktop\7-4-2025\Obligatorio 2025\Proyecto\LogicaAccesosDatos\obj\Debug\net8.0\LogicaAccesosDatos.csproj.AssemblyReference.cache
+D:\Users\Gaston\Desktop\7-4-2025\Obligatorio 2025\Proyecto\LogicaAccesosDatos\obj\Debug\net8.0\LogicaAccesosDatos.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\Gaston\Desktop\7-4-2025\Obligatorio 2025\Proyecto\LogicaAccesosDatos\obj\Debug\net8.0\LogicaAccesosDatos.AssemblyInfoInputs.cache
+D:\Users\Gaston\Desktop\7-4-2025\Obligatorio 2025\Proyecto\LogicaAccesosDatos\obj\Debug\net8.0\LogicaAccesosDatos.AssemblyInfo.cs
+D:\Users\Gaston\Desktop\7-4-2025\Obligatorio 2025\Proyecto\LogicaAccesosDatos\obj\Debug\net8.0\LogicaAccesosDatos.csproj.CoreCompileInputs.cache
+D:\Users\Gaston\Desktop\7-4-2025\Obligatorio 2025\Proyecto\LogicaAccesosDatos\bin\Debug\net8.0\LogicaAccesosDatos.deps.json
+D:\Users\Gaston\Desktop\7-4-2025\Obligatorio 2025\Proyecto\LogicaAccesosDatos\bin\Debug\net8.0\LogicaAccesosDatos.runtimeconfig.json
+D:\Users\Gaston\Desktop\7-4-2025\Obligatorio 2025\Proyecto\LogicaAccesosDatos\bin\Debug\net8.0\LogicaAccesosDatos.dll
+D:\Users\Gaston\Desktop\7-4-2025\Obligatorio 2025\Proyecto\LogicaAccesosDatos\bin\Debug\net8.0\LogicaAccesosDatos.pdb
+D:\Users\Gaston\Desktop\7-4-2025\Obligatorio 2025\Proyecto\LogicaAccesosDatos\bin\Debug\net8.0\LogicaNegocio.dll
+D:\Users\Gaston\Desktop\7-4-2025\Obligatorio 2025\Proyecto\LogicaAccesosDatos\bin\Debug\net8.0\LogicaNegocio.pdb
+D:\Users\Gaston\Desktop\7-4-2025\Obligatorio 2025\Proyecto\LogicaAccesosDatos\obj\Debug\net8.0\LogicaAc.4F39FA5C.Up2Date
+D:\Users\Gaston\Desktop\7-4-2025\Obligatorio 2025\Proyecto\LogicaAccesosDatos\obj\Debug\net8.0\LogicaAccesosDatos.dll
+D:\Users\Gaston\Desktop\7-4-2025\Obligatorio 2025\Proyecto\LogicaAccesosDatos\obj\Debug\net8.0\refint\LogicaAccesosDatos.dll
+D:\Users\Gaston\Desktop\7-4-2025\Obligatorio 2025\Proyecto\LogicaAccesosDatos\obj\Debug\net8.0\LogicaAccesosDatos.pdb
+D:\Users\Gaston\Desktop\7-4-2025\Obligatorio 2025\Proyecto\LogicaAccesosDatos\obj\Debug\net8.0\LogicaAccesosDatos.genruntimeconfig.cache
+D:\Users\Gaston\Desktop\7-4-2025\Obligatorio 2025\Proyecto\LogicaAccesosDatos\obj\Debug\net8.0\ref\LogicaAccesosDatos.dll
