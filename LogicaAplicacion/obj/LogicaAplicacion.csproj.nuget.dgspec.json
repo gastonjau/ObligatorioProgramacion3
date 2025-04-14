@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pietr\\OneDrive\\Documentos\\Facultad\\Semestre 3\\P3\\Obligatorio\\ObligatorioProgramacion3\\LogicaAplicacion\\LogicaAplicacion.csproj": {}
+    "D:\\Users\\Gaston\\Desktop\\7-4-2025\\14-4-2025\\ObligatorioProgramacion3\\LogicaAplicacion\\LogicaAplicacion.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pietr\\OneDrive\\Documentos\\Facultad\\Semestre 3\\P3\\Obligatorio\\ObligatorioProgramacion3\\Compartido\\Compartido.csproj": {
+    "D:\\Users\\Gaston\\Desktop\\7-4-2025\\14-4-2025\\ObligatorioProgramacion3\\Compartido\\Compartido.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pietr\\OneDrive\\Documentos\\Facultad\\Semestre 3\\P3\\Obligatorio\\ObligatorioProgramacion3\\Compartido\\Compartido.csproj",
+        "projectUniqueName": "D:\\Users\\Gaston\\Desktop\\7-4-2025\\14-4-2025\\ObligatorioProgramacion3\\Compartido\\Compartido.csproj",
         "projectName": "Compartido",
-        "projectPath": "C:\\Users\\pietr\\OneDrive\\Documentos\\Facultad\\Semestre 3\\P3\\Obligatorio\\ObligatorioProgramacion3\\Compartido\\Compartido.csproj",
-        "packagesPath": "C:\\Users\\pietr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pietr\\OneDrive\\Documentos\\Facultad\\Semestre 3\\P3\\Obligatorio\\ObligatorioProgramacion3\\Compartido\\obj\\",
+        "projectPath": "D:\\Users\\Gaston\\Desktop\\7-4-2025\\14-4-2025\\ObligatorioProgramacion3\\Compartido\\Compartido.csproj",
+        "packagesPath": "C:\\Users\\Gaston\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\Gaston\\Desktop\\7-4-2025\\14-4-2025\\ObligatorioProgramacion3\\Compartido\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\pietr\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Gaston\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -32,11 +28,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\pietr\\OneDrive\\Documentos\\Facultad\\Semestre 3\\P3\\Obligatorio\\ObligatorioProgramacion3\\LogicaAccesosDatos\\LogicaAccesosDatos.csproj": {
-                "projectPath": "C:\\Users\\pietr\\OneDrive\\Documentos\\Facultad\\Semestre 3\\P3\\Obligatorio\\ObligatorioProgramacion3\\LogicaAccesosDatos\\LogicaAccesosDatos.csproj"
+              "D:\\Users\\Gaston\\Desktop\\7-4-2025\\14-4-2025\\ObligatorioProgramacion3\\LogicaAccesosDatos\\LogicaAccesosDatos.csproj": {
+                "projectPath": "D:\\Users\\Gaston\\Desktop\\7-4-2025\\14-4-2025\\ObligatorioProgramacion3\\LogicaAccesosDatos\\LogicaAccesosDatos.csproj"
               },
-              "C:\\Users\\pietr\\OneDrive\\Documentos\\Facultad\\Semestre 3\\P3\\Obligatorio\\ObligatorioProgramacion3\\LogicaNegocio\\LogicaNegocio.csproj": {
-                "projectPath": "C:\\Users\\pietr\\OneDrive\\Documentos\\Facultad\\Semestre 3\\P3\\Obligatorio\\ObligatorioProgramacion3\\LogicaNegocio\\LogicaNegocio.csproj"
+              "D:\\Users\\Gaston\\Desktop\\7-4-2025\\14-4-2025\\ObligatorioProgramacion3\\LogicaNegocio\\LogicaNegocio.csproj": {
+                "projectPath": "D:\\Users\\Gaston\\Desktop\\7-4-2025\\14-4-2025\\ObligatorioProgramacion3\\LogicaNegocio\\LogicaNegocio.csproj"
               }
             }
           }
@@ -49,9 +45,8 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+          "auditMode": "direct"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -72,25 +67,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\pietr\\OneDrive\\Documentos\\Facultad\\Semestre 3\\P3\\Obligatorio\\ObligatorioProgramacion3\\LogicaAccesosDatos\\LogicaAccesosDatos.csproj": {
+    "D:\\Users\\Gaston\\Desktop\\7-4-2025\\14-4-2025\\ObligatorioProgramacion3\\LogicaAccesosDatos\\LogicaAccesosDatos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pietr\\OneDrive\\Documentos\\Facultad\\Semestre 3\\P3\\Obligatorio\\ObligatorioProgramacion3\\LogicaAccesosDatos\\LogicaAccesosDatos.csproj",
+        "projectUniqueName": "D:\\Users\\Gaston\\Desktop\\7-4-2025\\14-4-2025\\ObligatorioProgramacion3\\LogicaAccesosDatos\\LogicaAccesosDatos.csproj",
         "projectName": "LogicaAccesosDatos",
-        "projectPath": "C:\\Users\\pietr\\OneDrive\\Documentos\\Facultad\\Semestre 3\\P3\\Obligatorio\\ObligatorioProgramacion3\\LogicaAccesosDatos\\LogicaAccesosDatos.csproj",
-        "packagesPath": "C:\\Users\\pietr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pietr\\OneDrive\\Documentos\\Facultad\\Semestre 3\\P3\\Obligatorio\\ObligatorioProgramacion3\\LogicaAccesosDatos\\obj\\",
+        "projectPath": "D:\\Users\\Gaston\\Desktop\\7-4-2025\\14-4-2025\\ObligatorioProgramacion3\\LogicaAccesosDatos\\LogicaAccesosDatos.csproj",
+        "packagesPath": "C:\\Users\\Gaston\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\Gaston\\Desktop\\7-4-2025\\14-4-2025\\ObligatorioProgramacion3\\LogicaAccesosDatos\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\pietr\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Gaston\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -104,8 +95,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\pietr\\OneDrive\\Documentos\\Facultad\\Semestre 3\\P3\\Obligatorio\\ObligatorioProgramacion3\\LogicaNegocio\\LogicaNegocio.csproj": {
-                "projectPath": "C:\\Users\\pietr\\OneDrive\\Documentos\\Facultad\\Semestre 3\\P3\\Obligatorio\\ObligatorioProgramacion3\\LogicaNegocio\\LogicaNegocio.csproj"
+              "D:\\Users\\Gaston\\Desktop\\7-4-2025\\14-4-2025\\ObligatorioProgramacion3\\LogicaNegocio\\LogicaNegocio.csproj": {
+                "projectPath": "D:\\Users\\Gaston\\Desktop\\7-4-2025\\14-4-2025\\ObligatorioProgramacion3\\LogicaNegocio\\LogicaNegocio.csproj"
               }
             }
           }
@@ -118,9 +109,8 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+          "auditMode": "direct"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -157,25 +147,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\pietr\\OneDrive\\Documentos\\Facultad\\Semestre 3\\P3\\Obligatorio\\ObligatorioProgramacion3\\LogicaAplicacion\\LogicaAplicacion.csproj": {
+    "D:\\Users\\Gaston\\Desktop\\7-4-2025\\14-4-2025\\ObligatorioProgramacion3\\LogicaAplicacion\\LogicaAplicacion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pietr\\OneDrive\\Documentos\\Facultad\\Semestre 3\\P3\\Obligatorio\\ObligatorioProgramacion3\\LogicaAplicacion\\LogicaAplicacion.csproj",
+        "projectUniqueName": "D:\\Users\\Gaston\\Desktop\\7-4-2025\\14-4-2025\\ObligatorioProgramacion3\\LogicaAplicacion\\LogicaAplicacion.csproj",
         "projectName": "LogicaAplicacion",
-        "projectPath": "C:\\Users\\pietr\\OneDrive\\Documentos\\Facultad\\Semestre 3\\P3\\Obligatorio\\ObligatorioProgramacion3\\LogicaAplicacion\\LogicaAplicacion.csproj",
-        "packagesPath": "C:\\Users\\pietr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pietr\\OneDrive\\Documentos\\Facultad\\Semestre 3\\P3\\Obligatorio\\ObligatorioProgramacion3\\LogicaAplicacion\\obj\\",
+        "projectPath": "D:\\Users\\Gaston\\Desktop\\7-4-2025\\14-4-2025\\ObligatorioProgramacion3\\LogicaAplicacion\\LogicaAplicacion.csproj",
+        "packagesPath": "C:\\Users\\Gaston\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\Gaston\\Desktop\\7-4-2025\\14-4-2025\\ObligatorioProgramacion3\\LogicaAplicacion\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\pietr\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Gaston\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -189,14 +175,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\pietr\\OneDrive\\Documentos\\Facultad\\Semestre 3\\P3\\Obligatorio\\ObligatorioProgramacion3\\Compartido\\Compartido.csproj": {
-                "projectPath": "C:\\Users\\pietr\\OneDrive\\Documentos\\Facultad\\Semestre 3\\P3\\Obligatorio\\ObligatorioProgramacion3\\Compartido\\Compartido.csproj"
+              "D:\\Users\\Gaston\\Desktop\\7-4-2025\\14-4-2025\\ObligatorioProgramacion3\\Compartido\\Compartido.csproj": {
+                "projectPath": "D:\\Users\\Gaston\\Desktop\\7-4-2025\\14-4-2025\\ObligatorioProgramacion3\\Compartido\\Compartido.csproj"
               },
-              "C:\\Users\\pietr\\OneDrive\\Documentos\\Facultad\\Semestre 3\\P3\\Obligatorio\\ObligatorioProgramacion3\\LogicaAccesosDatos\\LogicaAccesosDatos.csproj": {
-                "projectPath": "C:\\Users\\pietr\\OneDrive\\Documentos\\Facultad\\Semestre 3\\P3\\Obligatorio\\ObligatorioProgramacion3\\LogicaAccesosDatos\\LogicaAccesosDatos.csproj"
+              "D:\\Users\\Gaston\\Desktop\\7-4-2025\\14-4-2025\\ObligatorioProgramacion3\\LogicaAccesosDatos\\LogicaAccesosDatos.csproj": {
+                "projectPath": "D:\\Users\\Gaston\\Desktop\\7-4-2025\\14-4-2025\\ObligatorioProgramacion3\\LogicaAccesosDatos\\LogicaAccesosDatos.csproj"
               },
-              "C:\\Users\\pietr\\OneDrive\\Documentos\\Facultad\\Semestre 3\\P3\\Obligatorio\\ObligatorioProgramacion3\\LogicaNegocio\\LogicaNegocio.csproj": {
-                "projectPath": "C:\\Users\\pietr\\OneDrive\\Documentos\\Facultad\\Semestre 3\\P3\\Obligatorio\\ObligatorioProgramacion3\\LogicaNegocio\\LogicaNegocio.csproj"
+              "D:\\Users\\Gaston\\Desktop\\7-4-2025\\14-4-2025\\ObligatorioProgramacion3\\LogicaNegocio\\LogicaNegocio.csproj": {
+                "projectPath": "D:\\Users\\Gaston\\Desktop\\7-4-2025\\14-4-2025\\ObligatorioProgramacion3\\LogicaNegocio\\LogicaNegocio.csproj"
               }
             }
           }
@@ -209,9 +195,8 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+          "auditMode": "direct"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -232,25 +217,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\pietr\\OneDrive\\Documentos\\Facultad\\Semestre 3\\P3\\Obligatorio\\ObligatorioProgramacion3\\LogicaNegocio\\LogicaNegocio.csproj": {
+    "D:\\Users\\Gaston\\Desktop\\7-4-2025\\14-4-2025\\ObligatorioProgramacion3\\LogicaNegocio\\LogicaNegocio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pietr\\OneDrive\\Documentos\\Facultad\\Semestre 3\\P3\\Obligatorio\\ObligatorioProgramacion3\\LogicaNegocio\\LogicaNegocio.csproj",
+        "projectUniqueName": "D:\\Users\\Gaston\\Desktop\\7-4-2025\\14-4-2025\\ObligatorioProgramacion3\\LogicaNegocio\\LogicaNegocio.csproj",
         "projectName": "LogicaNegocio",
-        "projectPath": "C:\\Users\\pietr\\OneDrive\\Documentos\\Facultad\\Semestre 3\\P3\\Obligatorio\\ObligatorioProgramacion3\\LogicaNegocio\\LogicaNegocio.csproj",
-        "packagesPath": "C:\\Users\\pietr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pietr\\OneDrive\\Documentos\\Facultad\\Semestre 3\\P3\\Obligatorio\\ObligatorioProgramacion3\\LogicaNegocio\\obj\\",
+        "projectPath": "D:\\Users\\Gaston\\Desktop\\7-4-2025\\14-4-2025\\ObligatorioProgramacion3\\LogicaNegocio\\LogicaNegocio.csproj",
+        "packagesPath": "C:\\Users\\Gaston\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\Gaston\\Desktop\\7-4-2025\\14-4-2025\\ObligatorioProgramacion3\\LogicaNegocio\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\pietr\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Gaston\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -274,9 +255,8 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+          "auditMode": "direct"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -303,7 +283,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

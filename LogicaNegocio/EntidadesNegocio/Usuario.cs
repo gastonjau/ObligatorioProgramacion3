@@ -27,5 +27,5 @@ namespace LogicaNegocio.EntidadesNegocio
 			Rol = rol;
 		}
 
-	}
+    }
 }

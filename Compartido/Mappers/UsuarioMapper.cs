@@ -31,7 +31,7 @@ namespace Compartido.Mappers
 				Id = usuario.Id,
 				Nombre = usuario.Datos,
 				Email = usuario.Email.Valor,
-				Password = usuario.Contrasenia.Valor,
+				Password = usuario.Contrasenia.Valor
 			};
 			return usuarioDTO;
 		}

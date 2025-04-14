@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pietr\\OneDrive\\Documentos\\Facultad\\Semestre 3\\P3\\Obligatorio\\ObligatorioProgramacion3\\LogicaNegocio\\LogicaNegocio.csproj": {}
+    "D:\\Users\\Gaston\\Desktop\\7-4-2025\\14-4-2025\\ObligatorioProgramacion3\\LogicaNegocio\\LogicaNegocio.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pietr\\OneDrive\\Documentos\\Facultad\\Semestre 3\\P3\\Obligatorio\\ObligatorioProgramacion3\\LogicaNegocio\\LogicaNegocio.csproj": {
+    "D:\\Users\\Gaston\\Desktop\\7-4-2025\\14-4-2025\\ObligatorioProgramacion3\\LogicaNegocio\\LogicaNegocio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pietr\\OneDrive\\Documentos\\Facultad\\Semestre 3\\P3\\Obligatorio\\ObligatorioProgramacion3\\LogicaNegocio\\LogicaNegocio.csproj",
+        "projectUniqueName": "D:\\Users\\Gaston\\Desktop\\7-4-2025\\14-4-2025\\ObligatorioProgramacion3\\LogicaNegocio\\LogicaNegocio.csproj",
         "projectName": "LogicaNegocio",
-        "projectPath": "C:\\Users\\pietr\\OneDrive\\Documentos\\Facultad\\Semestre 3\\P3\\Obligatorio\\ObligatorioProgramacion3\\LogicaNegocio\\LogicaNegocio.csproj",
-        "packagesPath": "C:\\Users\\pietr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pietr\\OneDrive\\Documentos\\Facultad\\Semestre 3\\P3\\Obligatorio\\ObligatorioProgramacion3\\LogicaNegocio\\obj\\",
+        "projectPath": "D:\\Users\\Gaston\\Desktop\\7-4-2025\\14-4-2025\\ObligatorioProgramacion3\\LogicaNegocio\\LogicaNegocio.csproj",
+        "packagesPath": "C:\\Users\\Gaston\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\Gaston\\Desktop\\7-4-2025\\14-4-2025\\ObligatorioProgramacion3\\LogicaNegocio\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\pietr\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Gaston\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -42,9 +38,8 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+          "auditMode": "direct"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -71,7 +66,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

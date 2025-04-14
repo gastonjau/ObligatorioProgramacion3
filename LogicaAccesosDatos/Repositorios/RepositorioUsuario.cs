@@ -20,7 +20,12 @@ namespace LogicaAccesosDatos.Repositorios
 		{
 			return Contexto.Usuarios.Where(c => c.Email.Valor == email).SingleOrDefault();
 		}
-		public bool FindByEmailAndPass(string email, string contrasenia)
+
+        public Usuario ObtenerPorId(int id)
+        {
+            return Contexto.Usuarios.Where(c => c.Id == id).SingleOrDefault();
+        }
+        public bool FindByEmailAndPass(string email, string contrasenia)
 		{
 			return Contexto.Usuarios.Any(c => c.Email.Valor == email && c.Contrasenia.Valor == contrasenia && c.Rol.Nombre != "Cliente");
 		}
@@ -63,17 +68,9 @@ namespace LogicaAccesosDatos.Repositorios
         }
 
         public void Update(Usuario item)
-        {
-            Usuario usuarioBuscado = ObtenerPorEmail(item.Email.Valor);
-            if (usuarioBuscado == null || item.Id == usuarioBuscado.Id)
-            {
-                Contexto.Update(item);
+        { 
+                Contexto.Usuarios.Update(item);
                 Contexto.SaveChanges();
-            }
-            else
-            {
-                throw new UsuarioException("Ya existe un usuario con ese mail.");
-            }
         }
     }
 }
