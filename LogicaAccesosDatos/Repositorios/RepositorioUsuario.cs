@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 
 namespace LogicaAccesosDatos.Repositorios
 {
@@ -16,14 +17,9 @@ namespace LogicaAccesosDatos.Repositorios
 		{
 			Contexto = contexto;
 		}
-		public Usuario ObtenerPorEmail(string email)
-		{
-			return Contexto.Usuarios.Where(c => c.Email.Valor == email).SingleOrDefault();
-		}
-
-        public Usuario ObtenerPorId(int id)
+        public Usuario ObtenerPorEmail(string email)
         {
-            return Contexto.Usuarios.Where(c => c.Id == id).SingleOrDefault();
+            return Contexto.Usuarios.Where(c => c.Email.Valor == email).SingleOrDefault();
         }
         public bool FindByEmailAndPass(string email, string contrasenia)
 		{
@@ -68,9 +64,17 @@ namespace LogicaAccesosDatos.Repositorios
         }
 
         public void Update(Usuario item)
-        { 
+        {
+            Usuario usuarioBuscado = ObtenerPorEmail(item.Email.Valor);
+            if (usuarioBuscado == null || item.Id == usuarioBuscado.Id)
+            {
                 Contexto.Usuarios.Update(item);
                 Contexto.SaveChanges();
+            }
+            else
+            {
+                throw new UsuarioException("Ya existe un usuario con ese mail.");
+            }
         }
     }
 }

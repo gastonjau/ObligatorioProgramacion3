@@ -143,7 +143,6 @@ namespace MVC.Controllers
                 usuarioVM = CargarRolesActualizar();
                 usuarioVM.Id = id;
                 usuarioVM.Nombre = usuarioDTO.Nombre;
-                usuarioVM.Apellido = usuarioDTO.Apellido;
                 usuarioVM.Email = usuarioDTO.Email;
                 usuarioVM.Password = usuarioDTO.Password;
                 usuarioVM.Rol = usuarioDTO.Rol;
@@ -173,7 +172,6 @@ namespace MVC.Controllers
                     {
                         Id = id,
                         Nombre = usuarioVM.Nombre,
-                        Apellido = usuarioVM.Apellido,
                         Email = usuarioVM.Email,
                         Password = usuarioVM.Password,
                         Rol = usuarioVM.Rol

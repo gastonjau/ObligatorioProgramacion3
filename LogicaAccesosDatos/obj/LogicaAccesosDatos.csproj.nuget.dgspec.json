@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Users\\Gaston\\Desktop\\7-4-2025\\14-4-2025\\ObligatorioProgramacion3\\LogicaAccesosDatos\\LogicaAccesosDatos.csproj": {}
+    "D:\\Users\\Gaston\\Desktop\\7-4-2025\\14-4-2025\\15-04-2025\\LogicaAccesosDatos\\LogicaAccesosDatos.csproj": {}
   },
   "projects": {
-    "D:\\Users\\Gaston\\Desktop\\7-4-2025\\14-4-2025\\ObligatorioProgramacion3\\LogicaAccesosDatos\\LogicaAccesosDatos.csproj": {
+    "D:\\Users\\Gaston\\Desktop\\7-4-2025\\14-4-2025\\15-04-2025\\LogicaAccesosDatos\\LogicaAccesosDatos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\Gaston\\Desktop\\7-4-2025\\14-4-2025\\ObligatorioProgramacion3\\LogicaAccesosDatos\\LogicaAccesosDatos.csproj",
+        "projectUniqueName": "D:\\Users\\Gaston\\Desktop\\7-4-2025\\14-4-2025\\15-04-2025\\LogicaAccesosDatos\\LogicaAccesosDatos.csproj",
         "projectName": "LogicaAccesosDatos",
-        "projectPath": "D:\\Users\\Gaston\\Desktop\\7-4-2025\\14-4-2025\\ObligatorioProgramacion3\\LogicaAccesosDatos\\LogicaAccesosDatos.csproj",
+        "projectPath": "D:\\Users\\Gaston\\Desktop\\7-4-2025\\14-4-2025\\15-04-2025\\LogicaAccesosDatos\\LogicaAccesosDatos.csproj",
         "packagesPath": "C:\\Users\\Gaston\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\Gaston\\Desktop\\7-4-2025\\14-4-2025\\ObligatorioProgramacion3\\LogicaAccesosDatos\\obj\\",
+        "outputPath": "D:\\Users\\Gaston\\Desktop\\7-4-2025\\14-4-2025\\15-04-2025\\LogicaAccesosDatos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Gaston\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Users\\Gaston\\Desktop\\7-4-2025\\14-4-2025\\ObligatorioProgramacion3\\LogicaNegocio\\LogicaNegocio.csproj": {
-                "projectPath": "D:\\Users\\Gaston\\Desktop\\7-4-2025\\14-4-2025\\ObligatorioProgramacion3\\LogicaNegocio\\LogicaNegocio.csproj"
+              "D:\\Users\\Gaston\\Desktop\\7-4-2025\\14-4-2025\\15-04-2025\\LogicaNegocio\\LogicaNegocio.csproj": {
+                "projectPath": "D:\\Users\\Gaston\\Desktop\\7-4-2025\\14-4-2025\\15-04-2025\\LogicaNegocio\\LogicaNegocio.csproj"
               }
             }
           }
@@ -84,14 +84,14 @@
         }
       }
     },
-    "D:\\Users\\Gaston\\Desktop\\7-4-2025\\14-4-2025\\ObligatorioProgramacion3\\LogicaNegocio\\LogicaNegocio.csproj": {
+    "D:\\Users\\Gaston\\Desktop\\7-4-2025\\14-4-2025\\15-04-2025\\LogicaNegocio\\LogicaNegocio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\Gaston\\Desktop\\7-4-2025\\14-4-2025\\ObligatorioProgramacion3\\LogicaNegocio\\LogicaNegocio.csproj",
+        "projectUniqueName": "D:\\Users\\Gaston\\Desktop\\7-4-2025\\14-4-2025\\15-04-2025\\LogicaNegocio\\LogicaNegocio.csproj",
         "projectName": "LogicaNegocio",
-        "projectPath": "D:\\Users\\Gaston\\Desktop\\7-4-2025\\14-4-2025\\ObligatorioProgramacion3\\LogicaNegocio\\LogicaNegocio.csproj",
+        "projectPath": "D:\\Users\\Gaston\\Desktop\\7-4-2025\\14-4-2025\\15-04-2025\\LogicaNegocio\\LogicaNegocio.csproj",
         "packagesPath": "C:\\Users\\Gaston\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\Gaston\\Desktop\\7-4-2025\\14-4-2025\\ObligatorioProgramacion3\\LogicaNegocio\\obj\\",
+        "outputPath": "D:\\Users\\Gaston\\Desktop\\7-4-2025\\14-4-2025\\15-04-2025\\LogicaNegocio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Gaston\\AppData\\Roaming\\NuGet\\NuGet.Config",
