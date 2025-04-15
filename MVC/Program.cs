@@ -22,13 +22,15 @@ namespace MVC
 
 			builder.Services.AddScoped<IRepositorioUsuario, RepositorioUsuario>();
 			builder.Services.AddScoped<IRepositorioRol, RepositorioRol>();
+            builder.Services.AddScoped<ILoginUsuario, LoginUsuario>();
 
-			builder.Services.AddScoped<IAltaEmpleado, AltaEmpleado>();
+            builder.Services.AddScoped<IAltaEmpleado, AltaEmpleado>();
 			builder.Services.AddScoped<IListadoEmpleado, ListadoEmpleado>();
 			builder.Services.AddScoped<IBuscarRoles, BuscarRoles>();
 			builder.Services.AddScoped<IBuscarEmpleado, BuscarEmpleado>();
 			builder.Services.AddScoped<IActualizarEmpleado, ActualizarEmpleado>();
 			builder.Services.AddScoped<IEliminarEmpleado, EliminarEmpleado>();
+
 
             string cadenaConexion = builder.Configuration.GetConnectionString("cadenaConexion");
 			builder.Services.AddDbContext<UsuarioContext>(option => option.UseSqlServer(cadenaConexion));

@@ -7760,11 +7760,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Users\\Gaston\\Desktop\\7-4-2025\\14-4-2025\\15-04-2025\\MVC\\MVC.csproj",
+      "projectUniqueName": "D:\\Users\\Gaston\\Desktop\\7-4-2025\\14-4-2025\\342304-318802\\MVC\\MVC.csproj",
       "projectName": "MVC",
-      "projectPath": "D:\\Users\\Gaston\\Desktop\\7-4-2025\\14-4-2025\\15-04-2025\\MVC\\MVC.csproj",
+      "projectPath": "D:\\Users\\Gaston\\Desktop\\7-4-2025\\14-4-2025\\342304-318802\\MVC\\MVC.csproj",
       "packagesPath": "C:\\Users\\Gaston\\.nuget\\packages\\",
-      "outputPath": "D:\\Users\\Gaston\\Desktop\\7-4-2025\\14-4-2025\\15-04-2025\\MVC\\obj\\",
+      "outputPath": "D:\\Users\\Gaston\\Desktop\\7-4-2025\\14-4-2025\\342304-318802\\MVC\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Gaston\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7781,14 +7781,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Users\\Gaston\\Desktop\\7-4-2025\\14-4-2025\\15-04-2025\\Compartido\\Compartido.csproj": {
-              "projectPath": "D:\\Users\\Gaston\\Desktop\\7-4-2025\\14-4-2025\\15-04-2025\\Compartido\\Compartido.csproj"
+            "D:\\Users\\Gaston\\Desktop\\7-4-2025\\14-4-2025\\342304-318802\\Compartido\\Compartido.csproj": {
+              "projectPath": "D:\\Users\\Gaston\\Desktop\\7-4-2025\\14-4-2025\\342304-318802\\Compartido\\Compartido.csproj"
             },
-            "D:\\Users\\Gaston\\Desktop\\7-4-2025\\14-4-2025\\15-04-2025\\LogicaAplicacion\\LogicaAplicacion.csproj": {
-              "projectPath": "D:\\Users\\Gaston\\Desktop\\7-4-2025\\14-4-2025\\15-04-2025\\LogicaAplicacion\\LogicaAplicacion.csproj"
+            "D:\\Users\\Gaston\\Desktop\\7-4-2025\\14-4-2025\\342304-318802\\LogicaAplicacion\\LogicaAplicacion.csproj": {
+              "projectPath": "D:\\Users\\Gaston\\Desktop\\7-4-2025\\14-4-2025\\342304-318802\\LogicaAplicacion\\LogicaAplicacion.csproj"
             },
-            "D:\\Users\\Gaston\\Desktop\\7-4-2025\\14-4-2025\\15-04-2025\\LogicaNegocio\\LogicaNegocio.csproj": {
-              "projectPath": "D:\\Users\\Gaston\\Desktop\\7-4-2025\\14-4-2025\\15-04-2025\\LogicaNegocio\\LogicaNegocio.csproj"
+            "D:\\Users\\Gaston\\Desktop\\7-4-2025\\14-4-2025\\342304-318802\\LogicaNegocio\\LogicaNegocio.csproj": {
+              "projectPath": "D:\\Users\\Gaston\\Desktop\\7-4-2025\\14-4-2025\\342304-318802\\LogicaNegocio\\LogicaNegocio.csproj"
             }
           }
         }
