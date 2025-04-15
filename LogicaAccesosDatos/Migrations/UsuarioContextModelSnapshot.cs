@@ -35,7 +35,7 @@ namespace LogicaAccesosDatos.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Rol");
+                    b.ToTable("Roles");
                 });
 
             modelBuilder.Entity("LogicaNegocio.EntidadesNegocio.Usuario", b =>
@@ -46,87 +46,67 @@ namespace LogicaAccesosDatos.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("ContraseniaId")
-                        .HasColumnType("int");
-
                     b.Property<string>("Datos")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("EmailId")
-                        .HasColumnType("int");
 
                     b.Property<int>("RolId")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("ContraseniaId");
-
-                    b.HasIndex("EmailId");
-
                     b.HasIndex("RolId");
 
                     b.ToTable("Usuarios");
                 });
 
-            modelBuilder.Entity("LogicaNegocio.EntidadesNegocio.UsuarioContrasenia", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("Valor")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("UsuarioContrasenia");
-                });
-
-            modelBuilder.Entity("LogicaNegocio.EntidadesNegocio.UsuarioEmail", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("Valor")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("UsuarioEmail");
-                });
-
             modelBuilder.Entity("LogicaNegocio.EntidadesNegocio.Usuario", b =>
                 {
-                    b.HasOne("LogicaNegocio.EntidadesNegocio.UsuarioContrasenia", "Contrasenia")
-                        .WithMany()
-                        .HasForeignKey("ContraseniaId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("LogicaNegocio.EntidadesNegocio.UsuarioEmail", "Email")
-                        .WithMany()
-                        .HasForeignKey("EmailId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.HasOne("LogicaNegocio.EntidadesNegocio.Rol", "Rol")
                         .WithMany()
                         .HasForeignKey("RolId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.NoAction)
                         .IsRequired();
 
-                    b.Navigation("Contrasenia");
+                    b.OwnsOne("LogicaNegocio.EntidadesNegocio.UsuarioContrasenia", "Contrasenia", b1 =>
+                        {
+                            b1.Property<int>("UsuarioId")
+                                .HasColumnType("int");
 
-                    b.Navigation("Email");
+                            b1.Property<string>("Valor")
+                                .IsRequired()
+                                .HasColumnType("nvarchar(max)");
+
+                            b1.HasKey("UsuarioId");
+
+                            b1.ToTable("Usuarios");
+
+                            b1.WithOwner()
+                                .HasForeignKey("UsuarioId");
+                        });
+
+                    b.OwnsOne("LogicaNegocio.EntidadesNegocio.UsuarioEmail", "Email", b1 =>
+                        {
+                            b1.Property<int>("UsuarioId")
+                                .HasColumnType("int");
+
+                            b1.Property<string>("Valor")
+                                .IsRequired()
+                                .HasColumnType("nvarchar(max)");
+
+                            b1.HasKey("UsuarioId");
+
+                            b1.ToTable("Usuarios");
+
+                            b1.WithOwner()
+                                .HasForeignKey("UsuarioId");
+                        });
+
+                    b.Navigation("Contrasenia")
+                        .IsRequired();
+
+                    b.Navigation("Email")
+                        .IsRequired();
 
                     b.Navigation("Rol");
                 });

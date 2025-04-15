@@ -918,6 +918,9 @@
         }
       },
       "LogicaNegocio/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Abstractions": "8.0.10"
+        },
         "runtime": {
           "LogicaNegocio.dll": {}
         }
