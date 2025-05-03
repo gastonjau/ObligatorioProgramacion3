@@ -21,6 +21,7 @@ namespace LogicaAccesosDatos.Repositorios
         {
             return Contexto.Usuarios.Where(c => c.Email.Valor == email).SingleOrDefault();
         }
+
         public bool FindByEmailAndPass(string email, string contrasenia)
 		{
 			return Contexto.Usuarios.Any(c => c.Email.Valor == email && c.Contrasenia.Valor == contrasenia && c.Rol.Nombre != "Cliente");

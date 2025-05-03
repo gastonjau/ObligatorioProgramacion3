@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Users\\Gaston\\Desktop\\7-4-2025\\14-4-2025\\15-04-2025\\LogicaNegocio\\LogicaNegocio.csproj": {}
+    "C:\\Users\\pietr\\Desktop\\obligatorio\\342304-318802\\LogicaNegocio\\LogicaNegocio.csproj": {}
   },
   "projects": {
-    "D:\\Users\\Gaston\\Desktop\\7-4-2025\\14-4-2025\\15-04-2025\\LogicaNegocio\\LogicaNegocio.csproj": {
+    "C:\\Users\\pietr\\Desktop\\obligatorio\\342304-318802\\LogicaNegocio\\LogicaNegocio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\Gaston\\Desktop\\7-4-2025\\14-4-2025\\15-04-2025\\LogicaNegocio\\LogicaNegocio.csproj",
+        "projectUniqueName": "C:\\Users\\pietr\\Desktop\\obligatorio\\342304-318802\\LogicaNegocio\\LogicaNegocio.csproj",
         "projectName": "LogicaNegocio",
-        "projectPath": "D:\\Users\\Gaston\\Desktop\\7-4-2025\\14-4-2025\\15-04-2025\\LogicaNegocio\\LogicaNegocio.csproj",
-        "packagesPath": "C:\\Users\\Gaston\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\Gaston\\Desktop\\7-4-2025\\14-4-2025\\15-04-2025\\LogicaNegocio\\obj\\",
+        "projectPath": "C:\\Users\\pietr\\Desktop\\obligatorio\\342304-318802\\LogicaNegocio\\LogicaNegocio.csproj",
+        "packagesPath": "C:\\Users\\pietr\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pietr\\Desktop\\obligatorio\\342304-318802\\LogicaNegocio\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Gaston\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\pietr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,7 +43,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -66,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

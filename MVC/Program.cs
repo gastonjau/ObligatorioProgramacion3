@@ -1,7 +1,11 @@
 using LogicaAccesosDatos;
 using LogicaAccesosDatos.Repositorios;
+using LogicaAplicacion.ImplementacionCasosUso.AgenciaCU;
+using LogicaAplicacion.ImplementacionCasosUso.EnvioCU;
 using LogicaAplicacion.ImplementacionCasosUso.Rol;
 using LogicaAplicacion.ImplementacionCasosUso.UsuarioCU;
+using LogicaAplicacion.InterfacesCasosUso.Agencia;
+using LogicaAplicacion.InterfacesCasosUso.Envio;
 using LogicaAplicacion.InterfacesCasosUso.Rol;
 using LogicaAplicacion.InterfacesCasosUso.Usuario;
 using LogicaNegocio.InterfacesRepositorios;
@@ -22,13 +26,20 @@ namespace MVC
 
 			builder.Services.AddScoped<IRepositorioUsuario, RepositorioUsuario>();
 			builder.Services.AddScoped<IRepositorioRol, RepositorioRol>();
+            builder.Services.AddScoped<ILoginUsuario, LoginUsuario>();
 
-			builder.Services.AddScoped<IAltaEmpleado, AltaEmpleado>();
+            builder.Services.AddScoped<IAltaEmpleado, AltaEmpleado>();
 			builder.Services.AddScoped<IListadoEmpleado, ListadoEmpleado>();
 			builder.Services.AddScoped<IBuscarRoles, BuscarRoles>();
 			builder.Services.AddScoped<IBuscarEmpleado, BuscarEmpleado>();
 			builder.Services.AddScoped<IActualizarEmpleado, ActualizarEmpleado>();
 			builder.Services.AddScoped<IEliminarEmpleado, EliminarEmpleado>();
+
+			builder.Services.AddScoped<IAltaComun, AltaComun>();
+			builder.Services.AddScoped<IRepositorioAgencia, RepositorioAgencia>();
+			builder.Services.AddScoped<IRepositorioEnvio, RepositorioEnvio>();
+			builder.Services.AddScoped<IListadoAgencia, ListadoAgencia>();
+
 
             string cadenaConexion = builder.Configuration.GetConnectionString("cadenaConexion");
 			builder.Services.AddDbContext<UsuarioContext>(option => option.UseSqlServer(cadenaConexion));

@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LogicaAccesosDatos.Repositorios
+namespace LogicaNegocio.InterfacesRepositorios
 {
-	internal class RepositorioComun
-	{
-	}
+    public interface IRepositorioLogin
+    {
+    }
 }

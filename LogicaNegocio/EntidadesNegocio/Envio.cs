@@ -16,18 +16,11 @@ namespace LogicaNegocio.EntidadesNegocio
 		public string Estado { get; set; }
 		public string Etapas { get; set; }
 
-		public Comentario Comentario { get; set; }
+		public Envio() { }
 
-
-		public Envio (string codTracking, Usuario empleado, Usuario cliente, double pesoPaquete, string estado, string etapas, Comentario comentario)
+		public Envio(Usuario usuario)
 		{
-			CodTracking = codTracking;
-			Empleado = empleado;
-			Cliente = cliente;
-			PesoPaquete = pesoPaquete;
-			Estado = estado;
-			Etapas = etapas;
-			Comentario = comentario;
+			Cliente = usuario;
 		}
 	}
 }

@@ -10,9 +10,12 @@ namespace LogicaNegocio.EntidadesNegocio
 	{
 		public Agencia Agencia { get; set; }
 
-		public Comun(string codTracking, Usuario empleado, Usuario cliente, double pesoPaquete, string estado, string etapas,Comentario comentario, Agencia agencia ) :base(codTracking, empleado, cliente, pesoPaquete, estado, etapas, comentario)
-		{
-			Agencia = agencia;
+		public Comun():base(){}
+
+
+		public Comun(Agencia agencia, Usuario cliente) : base(cliente) 
+		{  
+			Agencia = agencia; 
 		}
 	}
 }

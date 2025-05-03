@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Compartido.DTOs
+namespace Compartido.DTOs.Envio
 {
-	internal class EnvioDTO
+	public class UrgenteDTO : EnvioDTO
 	{
+		public string DirPostal { get; set; }
 	}
 }
