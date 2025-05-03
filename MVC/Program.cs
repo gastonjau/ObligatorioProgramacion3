@@ -1,6 +1,10 @@
 using LogicaAccesosDatos;
 using LogicaAccesosDatos.Repositorios;
+using LogicaAplicacion.ImplementacionCasosUso.Rol;
 using LogicaAplicacion.ImplementacionCasosUso.UsuarioCU;
+using LogicaAplicacion.InterfacesCasosUso.Rol;
+using LogicaAplicacion.InterfacesCasosUso.Usuario;
+using LogicaNegocio.InterfacesRepositorios;
 using Microsoft.EntityFrameworkCore;
 
 namespace MVC
@@ -15,6 +19,18 @@ namespace MVC
 			builder.Services.AddControllersWithViews();
             builder.Services.AddScoped<RepositorioUsuario>();
             builder.Services.AddScoped<LoginUsuario>();
+
+			builder.Services.AddScoped<IRepositorioUsuario, RepositorioUsuario>();
+			builder.Services.AddScoped<IRepositorioRol, RepositorioRol>();
+            builder.Services.AddScoped<ILoginUsuario, LoginUsuario>();
+
+            builder.Services.AddScoped<IAltaEmpleado, AltaEmpleado>();
+			builder.Services.AddScoped<IListadoEmpleado, ListadoEmpleado>();
+			builder.Services.AddScoped<IBuscarRoles, BuscarRoles>();
+			builder.Services.AddScoped<IBuscarEmpleado, BuscarEmpleado>();
+			builder.Services.AddScoped<IActualizarEmpleado, ActualizarEmpleado>();
+			builder.Services.AddScoped<IEliminarEmpleado, EliminarEmpleado>();
+
 
             string cadenaConexion = builder.Configuration.GetConnectionString("cadenaConexion");
 			builder.Services.AddDbContext<UsuarioContext>(option => option.UseSqlServer(cadenaConexion));

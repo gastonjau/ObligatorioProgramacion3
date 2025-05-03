@@ -1499,6 +1499,9 @@
       "LogicaNegocio/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Abstractions": "8.0.10"
+        },
         "compile": {
           "bin/placeholder/LogicaNegocio.dll": {}
         },
@@ -4061,11 +4064,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Users\\Gaston\\Desktop\\7-4-2025\\Obligatorio 2025\\Proyecto\\LogicaAccesosDatos\\LogicaAccesosDatos.csproj",
+      "projectUniqueName": "D:\\Users\\Gaston\\Desktop\\7-4-2025\\14-4-2025\\342304-318802\\LogicaAccesosDatos\\LogicaAccesosDatos.csproj",
       "projectName": "LogicaAccesosDatos",
-      "projectPath": "D:\\Users\\Gaston\\Desktop\\7-4-2025\\Obligatorio 2025\\Proyecto\\LogicaAccesosDatos\\LogicaAccesosDatos.csproj",
+      "projectPath": "D:\\Users\\Gaston\\Desktop\\7-4-2025\\14-4-2025\\342304-318802\\LogicaAccesosDatos\\LogicaAccesosDatos.csproj",
       "packagesPath": "C:\\Users\\Gaston\\.nuget\\packages\\",
-      "outputPath": "D:\\Users\\Gaston\\Desktop\\7-4-2025\\Obligatorio 2025\\Proyecto\\LogicaAccesosDatos\\obj\\",
+      "outputPath": "D:\\Users\\Gaston\\Desktop\\7-4-2025\\14-4-2025\\342304-318802\\LogicaAccesosDatos\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Gaston\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4082,8 +4085,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Users\\Gaston\\Desktop\\7-4-2025\\Obligatorio 2025\\Proyecto\\LogicaNegocio\\LogicaNegocio.csproj": {
-              "projectPath": "D:\\Users\\Gaston\\Desktop\\7-4-2025\\Obligatorio 2025\\Proyecto\\LogicaNegocio\\LogicaNegocio.csproj"
+            "D:\\Users\\Gaston\\Desktop\\7-4-2025\\14-4-2025\\342304-318802\\LogicaNegocio\\LogicaNegocio.csproj": {
+              "projectPath": "D:\\Users\\Gaston\\Desktop\\7-4-2025\\14-4-2025\\342304-318802\\LogicaNegocio\\LogicaNegocio.csproj"
             }
           }
         }

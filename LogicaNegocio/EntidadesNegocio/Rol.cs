@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,9 +12,9 @@ namespace LogicaNegocio.EntidadesNegocio
 		public int Id { get; set; }
 		public string Nombre { get; set; }
 
-		public Rol( string nombre)
+		public Rol(int id)
 		{
-			Nombre = nombre;
+			Id = id;
 		}
 	}
 }

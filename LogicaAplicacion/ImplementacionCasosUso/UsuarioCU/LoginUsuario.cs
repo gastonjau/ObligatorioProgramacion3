@@ -7,17 +7,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using LogicaNegocio.EntidadesNegocio;
+using LogicaAplicacion.InterfacesCasosUso.Usuario;
+using LogicaNegocio.InterfacesRepositorios;
 
 namespace LogicaAplicacion.ImplementacionCasosUso.UsuarioCU
 {
-	public class LoginUsuario
+	public class LoginUsuario: ILoginUsuario
 	{
-		private RepositorioUsuario RepoUser;
-
-		public LoginUsuario() { }
-		public LoginUsuario (RepositorioUsuario repo)
-		{
-			RepoUser = repo;
+        public IRepositorioUsuario RepoLogin { get; set; }
+        public LoginUsuario() { }
+        public LoginUsuario(IRepositorioUsuario repo)
+        {
+            RepoLogin = repo;
 		}
 		public bool Ejecutar(LoginUserDTO loginUserDTO)
 		{
@@ -25,7 +26,7 @@ namespace LogicaAplicacion.ImplementacionCasosUso.UsuarioCU
 			{
 				throw new Exception("el dto es null");
 			}
-			return RepoUser.FindByEmailAndPass(loginUserDTO.Email, loginUserDTO.Contrasenia);
+			return RepoLogin.FindByEmailAndPass(loginUserDTO.Email, loginUserDTO.Contrasenia);
 		}
 	}
 }

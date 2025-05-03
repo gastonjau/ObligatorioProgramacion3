@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Users\\Gaston\\Desktop\\7-4-2025\\Obligatorio 2025\\Proyecto\\LogicaNegocio\\LogicaNegocio.csproj": {}
+    "D:\\Users\\Gaston\\Desktop\\7-4-2025\\14-4-2025\\342304-318802\\LogicaNegocio\\LogicaNegocio.csproj": {}
   },
   "projects": {
-    "D:\\Users\\Gaston\\Desktop\\7-4-2025\\Obligatorio 2025\\Proyecto\\LogicaNegocio\\LogicaNegocio.csproj": {
+    "D:\\Users\\Gaston\\Desktop\\7-4-2025\\14-4-2025\\342304-318802\\LogicaNegocio\\LogicaNegocio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\Gaston\\Desktop\\7-4-2025\\Obligatorio 2025\\Proyecto\\LogicaNegocio\\LogicaNegocio.csproj",
+        "projectUniqueName": "D:\\Users\\Gaston\\Desktop\\7-4-2025\\14-4-2025\\342304-318802\\LogicaNegocio\\LogicaNegocio.csproj",
         "projectName": "LogicaNegocio",
-        "projectPath": "D:\\Users\\Gaston\\Desktop\\7-4-2025\\Obligatorio 2025\\Proyecto\\LogicaNegocio\\LogicaNegocio.csproj",
+        "projectPath": "D:\\Users\\Gaston\\Desktop\\7-4-2025\\14-4-2025\\342304-318802\\LogicaNegocio\\LogicaNegocio.csproj",
         "packagesPath": "C:\\Users\\Gaston\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\Gaston\\Desktop\\7-4-2025\\Obligatorio 2025\\Proyecto\\LogicaNegocio\\obj\\",
+        "outputPath": "D:\\Users\\Gaston\\Desktop\\7-4-2025\\14-4-2025\\342304-318802\\LogicaNegocio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Gaston\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -44,6 +44,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

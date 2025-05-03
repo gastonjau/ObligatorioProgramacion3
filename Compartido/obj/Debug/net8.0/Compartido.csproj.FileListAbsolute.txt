@@ -15,3 +15,75 @@ D:\Users\Gaston\Desktop\7-4-2025\Obligatorio 2025\Proyecto\Compartido\obj\Debug\
 D:\Users\Gaston\Desktop\7-4-2025\Obligatorio 2025\Proyecto\Compartido\obj\Debug\net8.0\ref\Compartido.dll
 D:\Users\Gaston\Desktop\7-4-2025\Obligatorio 2025\Proyecto\Compartido\bin\Debug\net8.0\LogicaAccesosDatos.dll
 D:\Users\Gaston\Desktop\7-4-2025\Obligatorio 2025\Proyecto\Compartido\bin\Debug\net8.0\LogicaAccesosDatos.pdb
+C:\Users\pietr\OneDrive\Documentos\Facultad\Semestre 3\P3\Obligatorio\ObligatorioProgramacion3\Compartido\bin\Debug\net8.0\Compartido.deps.json
+C:\Users\pietr\OneDrive\Documentos\Facultad\Semestre 3\P3\Obligatorio\ObligatorioProgramacion3\Compartido\bin\Debug\net8.0\Compartido.dll
+C:\Users\pietr\OneDrive\Documentos\Facultad\Semestre 3\P3\Obligatorio\ObligatorioProgramacion3\Compartido\bin\Debug\net8.0\Compartido.pdb
+C:\Users\pietr\OneDrive\Documentos\Facultad\Semestre 3\P3\Obligatorio\ObligatorioProgramacion3\Compartido\bin\Debug\net8.0\LogicaAccesosDatos.dll
+C:\Users\pietr\OneDrive\Documentos\Facultad\Semestre 3\P3\Obligatorio\ObligatorioProgramacion3\Compartido\bin\Debug\net8.0\LogicaNegocio.dll
+C:\Users\pietr\OneDrive\Documentos\Facultad\Semestre 3\P3\Obligatorio\ObligatorioProgramacion3\Compartido\bin\Debug\net8.0\LogicaAccesosDatos.pdb
+C:\Users\pietr\OneDrive\Documentos\Facultad\Semestre 3\P3\Obligatorio\ObligatorioProgramacion3\Compartido\bin\Debug\net8.0\LogicaNegocio.pdb
+C:\Users\pietr\OneDrive\Documentos\Facultad\Semestre 3\P3\Obligatorio\ObligatorioProgramacion3\Compartido\obj\Debug\net8.0\Compartido.csproj.AssemblyReference.cache
+C:\Users\pietr\OneDrive\Documentos\Facultad\Semestre 3\P3\Obligatorio\ObligatorioProgramacion3\Compartido\obj\Debug\net8.0\Compartido.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pietr\OneDrive\Documentos\Facultad\Semestre 3\P3\Obligatorio\ObligatorioProgramacion3\Compartido\obj\Debug\net8.0\Compartido.AssemblyInfoInputs.cache
+C:\Users\pietr\OneDrive\Documentos\Facultad\Semestre 3\P3\Obligatorio\ObligatorioProgramacion3\Compartido\obj\Debug\net8.0\Compartido.AssemblyInfo.cs
+C:\Users\pietr\OneDrive\Documentos\Facultad\Semestre 3\P3\Obligatorio\ObligatorioProgramacion3\Compartido\obj\Debug\net8.0\Compartido.csproj.CoreCompileInputs.cache
+C:\Users\pietr\OneDrive\Documentos\Facultad\Semestre 3\P3\Obligatorio\ObligatorioProgramacion3\Compartido\obj\Debug\net8.0\Compartido.sourcelink.json
+C:\Users\pietr\OneDrive\Documentos\Facultad\Semestre 3\P3\Obligatorio\ObligatorioProgramacion3\Compartido\obj\Debug\net8.0\Compartido.csproj.Up2Date
+C:\Users\pietr\OneDrive\Documentos\Facultad\Semestre 3\P3\Obligatorio\ObligatorioProgramacion3\Compartido\obj\Debug\net8.0\Compartido.dll
+C:\Users\pietr\OneDrive\Documentos\Facultad\Semestre 3\P3\Obligatorio\ObligatorioProgramacion3\Compartido\obj\Debug\net8.0\refint\Compartido.dll
+C:\Users\pietr\OneDrive\Documentos\Facultad\Semestre 3\P3\Obligatorio\ObligatorioProgramacion3\Compartido\obj\Debug\net8.0\Compartido.pdb
+C:\Users\pietr\OneDrive\Documentos\Facultad\Semestre 3\P3\Obligatorio\ObligatorioProgramacion3\Compartido\obj\Debug\net8.0\ref\Compartido.dll
+D:\Users\Gaston\Desktop\7-4-2025\14-4-2025\ObligatorioProgramacion3\Compartido\bin\Debug\net8.0\Compartido.deps.json
+D:\Users\Gaston\Desktop\7-4-2025\14-4-2025\ObligatorioProgramacion3\Compartido\bin\Debug\net8.0\Compartido.dll
+D:\Users\Gaston\Desktop\7-4-2025\14-4-2025\ObligatorioProgramacion3\Compartido\bin\Debug\net8.0\Compartido.pdb
+D:\Users\Gaston\Desktop\7-4-2025\14-4-2025\ObligatorioProgramacion3\Compartido\bin\Debug\net8.0\LogicaAccesosDatos.dll
+D:\Users\Gaston\Desktop\7-4-2025\14-4-2025\ObligatorioProgramacion3\Compartido\bin\Debug\net8.0\LogicaNegocio.dll
+D:\Users\Gaston\Desktop\7-4-2025\14-4-2025\ObligatorioProgramacion3\Compartido\bin\Debug\net8.0\LogicaAccesosDatos.pdb
+D:\Users\Gaston\Desktop\7-4-2025\14-4-2025\ObligatorioProgramacion3\Compartido\bin\Debug\net8.0\LogicaNegocio.pdb
+D:\Users\Gaston\Desktop\7-4-2025\14-4-2025\ObligatorioProgramacion3\Compartido\obj\Debug\net8.0\Compartido.csproj.AssemblyReference.cache
+D:\Users\Gaston\Desktop\7-4-2025\14-4-2025\ObligatorioProgramacion3\Compartido\obj\Debug\net8.0\Compartido.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\Gaston\Desktop\7-4-2025\14-4-2025\ObligatorioProgramacion3\Compartido\obj\Debug\net8.0\Compartido.AssemblyInfoInputs.cache
+D:\Users\Gaston\Desktop\7-4-2025\14-4-2025\ObligatorioProgramacion3\Compartido\obj\Debug\net8.0\Compartido.AssemblyInfo.cs
+D:\Users\Gaston\Desktop\7-4-2025\14-4-2025\ObligatorioProgramacion3\Compartido\obj\Debug\net8.0\Compartido.csproj.CoreCompileInputs.cache
+D:\Users\Gaston\Desktop\7-4-2025\14-4-2025\ObligatorioProgramacion3\Compartido\obj\Debug\net8.0\Compartido.sourcelink.json
+D:\Users\Gaston\Desktop\7-4-2025\14-4-2025\ObligatorioProgramacion3\Compartido\obj\Debug\net8.0\Compartido.csproj.Up2Date
+D:\Users\Gaston\Desktop\7-4-2025\14-4-2025\ObligatorioProgramacion3\Compartido\obj\Debug\net8.0\Compartido.dll
+D:\Users\Gaston\Desktop\7-4-2025\14-4-2025\ObligatorioProgramacion3\Compartido\obj\Debug\net8.0\refint\Compartido.dll
+D:\Users\Gaston\Desktop\7-4-2025\14-4-2025\ObligatorioProgramacion3\Compartido\obj\Debug\net8.0\Compartido.pdb
+D:\Users\Gaston\Desktop\7-4-2025\14-4-2025\ObligatorioProgramacion3\Compartido\obj\Debug\net8.0\ref\Compartido.dll
+D:\Users\Gaston\Desktop\7-4-2025\14-4-2025\15-04-2025\Compartido\bin\Debug\net8.0\Compartido.deps.json
+D:\Users\Gaston\Desktop\7-4-2025\14-4-2025\15-04-2025\Compartido\bin\Debug\net8.0\Compartido.dll
+D:\Users\Gaston\Desktop\7-4-2025\14-4-2025\15-04-2025\Compartido\bin\Debug\net8.0\Compartido.pdb
+D:\Users\Gaston\Desktop\7-4-2025\14-4-2025\15-04-2025\Compartido\bin\Debug\net8.0\LogicaAccesosDatos.dll
+D:\Users\Gaston\Desktop\7-4-2025\14-4-2025\15-04-2025\Compartido\bin\Debug\net8.0\LogicaNegocio.dll
+D:\Users\Gaston\Desktop\7-4-2025\14-4-2025\15-04-2025\Compartido\bin\Debug\net8.0\LogicaAccesosDatos.pdb
+D:\Users\Gaston\Desktop\7-4-2025\14-4-2025\15-04-2025\Compartido\bin\Debug\net8.0\LogicaNegocio.pdb
+D:\Users\Gaston\Desktop\7-4-2025\14-4-2025\15-04-2025\Compartido\obj\Debug\net8.0\Compartido.csproj.AssemblyReference.cache
+D:\Users\Gaston\Desktop\7-4-2025\14-4-2025\15-04-2025\Compartido\obj\Debug\net8.0\Compartido.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\Gaston\Desktop\7-4-2025\14-4-2025\15-04-2025\Compartido\obj\Debug\net8.0\Compartido.AssemblyInfoInputs.cache
+D:\Users\Gaston\Desktop\7-4-2025\14-4-2025\15-04-2025\Compartido\obj\Debug\net8.0\Compartido.AssemblyInfo.cs
+D:\Users\Gaston\Desktop\7-4-2025\14-4-2025\15-04-2025\Compartido\obj\Debug\net8.0\Compartido.csproj.CoreCompileInputs.cache
+D:\Users\Gaston\Desktop\7-4-2025\14-4-2025\15-04-2025\Compartido\obj\Debug\net8.0\Compartido.sourcelink.json
+D:\Users\Gaston\Desktop\7-4-2025\14-4-2025\15-04-2025\Compartido\obj\Debug\net8.0\Compartido.csproj.Up2Date
+D:\Users\Gaston\Desktop\7-4-2025\14-4-2025\15-04-2025\Compartido\obj\Debug\net8.0\Compartido.dll
+D:\Users\Gaston\Desktop\7-4-2025\14-4-2025\15-04-2025\Compartido\obj\Debug\net8.0\refint\Compartido.dll
+D:\Users\Gaston\Desktop\7-4-2025\14-4-2025\15-04-2025\Compartido\obj\Debug\net8.0\Compartido.pdb
+D:\Users\Gaston\Desktop\7-4-2025\14-4-2025\15-04-2025\Compartido\obj\Debug\net8.0\ref\Compartido.dll
+D:\Users\Gaston\Desktop\7-4-2025\14-4-2025\342304-318802\Compartido\bin\Debug\net8.0\Compartido.deps.json
+D:\Users\Gaston\Desktop\7-4-2025\14-4-2025\342304-318802\Compartido\bin\Debug\net8.0\Compartido.dll
+D:\Users\Gaston\Desktop\7-4-2025\14-4-2025\342304-318802\Compartido\bin\Debug\net8.0\Compartido.pdb
+D:\Users\Gaston\Desktop\7-4-2025\14-4-2025\342304-318802\Compartido\bin\Debug\net8.0\LogicaAccesosDatos.dll
+D:\Users\Gaston\Desktop\7-4-2025\14-4-2025\342304-318802\Compartido\bin\Debug\net8.0\LogicaNegocio.dll
+D:\Users\Gaston\Desktop\7-4-2025\14-4-2025\342304-318802\Compartido\bin\Debug\net8.0\LogicaAccesosDatos.pdb
+D:\Users\Gaston\Desktop\7-4-2025\14-4-2025\342304-318802\Compartido\bin\Debug\net8.0\LogicaNegocio.pdb
+D:\Users\Gaston\Desktop\7-4-2025\14-4-2025\342304-318802\Compartido\obj\Debug\net8.0\Compartido.csproj.AssemblyReference.cache
+D:\Users\Gaston\Desktop\7-4-2025\14-4-2025\342304-318802\Compartido\obj\Debug\net8.0\Compartido.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\Gaston\Desktop\7-4-2025\14-4-2025\342304-318802\Compartido\obj\Debug\net8.0\Compartido.AssemblyInfoInputs.cache
+D:\Users\Gaston\Desktop\7-4-2025\14-4-2025\342304-318802\Compartido\obj\Debug\net8.0\Compartido.AssemblyInfo.cs
+D:\Users\Gaston\Desktop\7-4-2025\14-4-2025\342304-318802\Compartido\obj\Debug\net8.0\Compartido.csproj.CoreCompileInputs.cache
+D:\Users\Gaston\Desktop\7-4-2025\14-4-2025\342304-318802\Compartido\obj\Debug\net8.0\Compartido.sourcelink.json
+D:\Users\Gaston\Desktop\7-4-2025\14-4-2025\342304-318802\Compartido\obj\Debug\net8.0\Compartido.csproj.Up2Date
+D:\Users\Gaston\Desktop\7-4-2025\14-4-2025\342304-318802\Compartido\obj\Debug\net8.0\Compartido.dll
+D:\Users\Gaston\Desktop\7-4-2025\14-4-2025\342304-318802\Compartido\obj\Debug\net8.0\refint\Compartido.dll
+D:\Users\Gaston\Desktop\7-4-2025\14-4-2025\342304-318802\Compartido\obj\Debug\net8.0\Compartido.pdb
+D:\Users\Gaston\Desktop\7-4-2025\14-4-2025\342304-318802\Compartido\obj\Debug\net8.0\ref\Compartido.dll

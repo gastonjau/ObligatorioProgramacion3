@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Compartido.DTOs
+namespace LogicaNegocio.InterfacesRepositorios
 {
-	internal class ListadoUsuarioDTO
-	{
-	}
+    public interface IRepositorioLogin
+    {
+    }
 }

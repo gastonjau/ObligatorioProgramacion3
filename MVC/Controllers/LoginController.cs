@@ -1,5 +1,7 @@
 ﻿using Compartido.DTOs;
 using LogicaAplicacion.ImplementacionCasosUso.UsuarioCU;
+using LogicaAplicacion.InterfacesCasosUso.Rol;
+using LogicaAplicacion.InterfacesCasosUso.Usuario;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using MVC.Models;
@@ -8,12 +10,13 @@ namespace MVC.Controllers
 {
 	public class LoginController : Controller
 	{
-		private LoginUsuario LoginUsuario = new LoginUsuario();
+		
+        public ILoginUsuario CULoginUsuario { get; set; }
 
-		public LoginController(LoginUsuario loginUsuario)
-		{
-			LoginUsuario = loginUsuario;
-		}
+        public LoginController(ILoginUsuario iLoginUsuario)
+        {
+			CULoginUsuario = iLoginUsuario;
+        }
 		// GET: LoginController
 		public ActionResult Index()
 		{
@@ -46,7 +49,7 @@ namespace MVC.Controllers
 						Email = loginVM.Email,
 						Contrasenia = loginVM.Contrasenia
 					};
-					bool retorno = LoginUsuario.Ejecutar(loginDTO);
+					bool retorno = CULoginUsuario.Ejecutar(loginDTO);
 
                     if (retorno)
                     {
