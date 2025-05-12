@@ -1336,6 +1336,7 @@ D:\Users\Gaston\Desktop\7-4-2025\14-4-2025\342304-318802\MVC\obj\Debug\net8.0\re
 D:\Users\Gaston\Desktop\7-4-2025\14-4-2025\342304-318802\MVC\obj\Debug\net8.0\MVC.pdb
 D:\Users\Gaston\Desktop\7-4-2025\14-4-2025\342304-318802\MVC\obj\Debug\net8.0\MVC.genruntimeconfig.cache
 D:\Users\Gaston\Desktop\7-4-2025\14-4-2025\342304-318802\MVC\obj\Debug\net8.0\ref\MVC.dll
+<<<<<<< HEAD
 C:\Users\pietr\Desktop\obligatorio\342304-318802\MVC\obj\Debug\net8.0\MVC.csproj.AssemblyReference.cache
 C:\Users\pietr\Desktop\obligatorio\342304-318802\MVC\obj\Debug\net8.0\MVC.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\pietr\Desktop\obligatorio\342304-318802\MVC\obj\Debug\net8.0\MVC.AssemblyInfoInputs.cache
@@ -2416,3 +2417,5 @@ C:\Users\pietr\OneDrive\Escritorio\Obligatorio p3\342304-318802\342304-318802\MV
 C:\Users\pietr\OneDrive\Escritorio\Obligatorio p3\342304-318802\342304-318802\MVC\obj\Debug\net8.0\MVC.pdb
 C:\Users\pietr\OneDrive\Escritorio\Obligatorio p3\342304-318802\342304-318802\MVC\obj\Debug\net8.0\MVC.genruntimeconfig.cache
 C:\Users\pietr\OneDrive\Escritorio\Obligatorio p3\342304-318802\342304-318802\MVC\obj\Debug\net8.0\ref\MVC.dll
+=======
+>>>>>>> origin/main

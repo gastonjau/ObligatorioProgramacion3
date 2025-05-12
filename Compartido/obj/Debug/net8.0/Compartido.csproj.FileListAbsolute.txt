@@ -87,6 +87,7 @@ D:\Users\Gaston\Desktop\7-4-2025\14-4-2025\342304-318802\Compartido\obj\Debug\ne
 D:\Users\Gaston\Desktop\7-4-2025\14-4-2025\342304-318802\Compartido\obj\Debug\net8.0\refint\Compartido.dll
 D:\Users\Gaston\Desktop\7-4-2025\14-4-2025\342304-318802\Compartido\obj\Debug\net8.0\Compartido.pdb
 D:\Users\Gaston\Desktop\7-4-2025\14-4-2025\342304-318802\Compartido\obj\Debug\net8.0\ref\Compartido.dll
+<<<<<<< HEAD
 C:\Users\pietr\Desktop\obligatorio\342304-318802\Compartido\obj\Debug\net8.0\Compartido.csproj.AssemblyReference.cache
 C:\Users\pietr\Desktop\obligatorio\342304-318802\Compartido\obj\Debug\net8.0\Compartido.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\pietr\Desktop\obligatorio\342304-318802\Compartido\obj\Debug\net8.0\Compartido.AssemblyInfoInputs.cache
@@ -159,3 +160,5 @@ C:\Users\pietr\OneDrive\Escritorio\Obligatorio p3\342304-318802\342304-318802\Co
 C:\Users\pietr\OneDrive\Escritorio\Obligatorio p3\342304-318802\342304-318802\Compartido\obj\Debug\net8.0\refint\Compartido.dll
 C:\Users\pietr\OneDrive\Escritorio\Obligatorio p3\342304-318802\342304-318802\Compartido\obj\Debug\net8.0\Compartido.pdb
 C:\Users\pietr\OneDrive\Escritorio\Obligatorio p3\342304-318802\342304-318802\Compartido\obj\Debug\net8.0\ref\Compartido.dll
+=======
+>>>>>>> origin/main

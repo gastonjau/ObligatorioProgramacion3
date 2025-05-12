@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "Z5clXas3PmI=",
   "success": true,
   "projectFilePath": "C:\\Users\\pietr\\OneDrive\\Escritorio\\Nueva carpeta\\342304-318802\\342304-318802\\LogicaAplicacion\\LogicaAplicacion.csproj",
+=======
+  "dgSpecHash": "sr3x3fd2jOE=",
+  "success": true,
+  "projectFilePath": "D:\\Users\\Gaston\\Desktop\\7-4-2025\\14-4-2025\\342304-318802\\LogicaAplicacion\\LogicaAplicacion.csproj",
+>>>>>>> origin/main
   "expectedPackageFiles": [
     "C:\\Users\\pietr\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\pietr\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

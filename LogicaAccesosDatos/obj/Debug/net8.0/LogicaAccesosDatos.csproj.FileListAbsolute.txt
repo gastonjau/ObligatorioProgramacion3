@@ -87,6 +87,7 @@ D:\Users\Gaston\Desktop\7-4-2025\14-4-2025\342304-318802\LogicaAccesosDatos\obj\
 D:\Users\Gaston\Desktop\7-4-2025\14-4-2025\342304-318802\LogicaAccesosDatos\obj\Debug\net8.0\LogicaAccesosDatos.pdb
 D:\Users\Gaston\Desktop\7-4-2025\14-4-2025\342304-318802\LogicaAccesosDatos\obj\Debug\net8.0\LogicaAccesosDatos.genruntimeconfig.cache
 D:\Users\Gaston\Desktop\7-4-2025\14-4-2025\342304-318802\LogicaAccesosDatos\obj\Debug\net8.0\ref\LogicaAccesosDatos.dll
+<<<<<<< HEAD
 C:\Users\pietr\Desktop\obligatorio\342304-318802\LogicaAccesosDatos\obj\Debug\net8.0\LogicaAccesosDatos.csproj.AssemblyReference.cache
 C:\Users\pietr\Desktop\obligatorio\342304-318802\LogicaAccesosDatos\obj\Debug\net8.0\LogicaAccesosDatos.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\pietr\Desktop\obligatorio\342304-318802\LogicaAccesosDatos\obj\Debug\net8.0\LogicaAccesosDatos.AssemblyInfoInputs.cache
@@ -159,3 +160,5 @@ C:\Users\pietr\OneDrive\Escritorio\Obligatorio p3\342304-318802\342304-318802\Lo
 C:\Users\pietr\OneDrive\Escritorio\Obligatorio p3\342304-318802\342304-318802\LogicaAccesosDatos\obj\Debug\net8.0\LogicaAccesosDatos.pdb
 C:\Users\pietr\OneDrive\Escritorio\Obligatorio p3\342304-318802\342304-318802\LogicaAccesosDatos\obj\Debug\net8.0\LogicaAccesosDatos.genruntimeconfig.cache
 C:\Users\pietr\OneDrive\Escritorio\Obligatorio p3\342304-318802\342304-318802\LogicaAccesosDatos\obj\Debug\net8.0\ref\LogicaAccesosDatos.dll
+=======
+>>>>>>> origin/main

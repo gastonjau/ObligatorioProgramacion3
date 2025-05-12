@@ -35,6 +35,7 @@ namespace MVC
 			builder.Services.AddScoped<IActualizarEmpleado, ActualizarEmpleado>();
 			builder.Services.AddScoped<IEliminarEmpleado, EliminarEmpleado>();
 
+<<<<<<< HEAD
 			builder.Services.AddScoped<IAltaComun, AltaComun>();
 			builder.Services.AddScoped<IRepositorioAgencia, RepositorioAgencia>();
 			builder.Services.AddScoped<IRepositorioEnvio, RepositorioEnvio>();
@@ -42,6 +43,8 @@ namespace MVC
 
             builder.Services.AddScoped<IListadoEnvio, ListadoEnvio>();
             builder.Services.AddScoped<IActualizarEnvio, ActualizarEnvio>();
+=======
+>>>>>>> origin/main
 
             string cadenaConexion = builder.Configuration.GetConnectionString("cadenaConexion");
 			builder.Services.AddDbContext<UsuarioContext>(option => option.UseSqlServer(cadenaConexion));
