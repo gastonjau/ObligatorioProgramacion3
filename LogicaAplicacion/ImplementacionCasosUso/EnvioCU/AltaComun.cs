@@ -17,17 +17,20 @@ namespace LogicaAplicacion.ImplementacionCasosUso.EnvioCU
         public IRepositorioUsuario RepoUsuario { get; set; }
         public IRepositorioAgencia RepoAgencia { get; set; }
 
-        public AltaComun(IRepositorioEnvio repoEnvio, IRepositorioUsuario repoUsuario)
+        public AltaComun(IRepositorioEnvio repoEnvio, IRepositorioUsuario repoUsuario, IRepositorioAgencia repoAgencia)
         {
             RepoEnvio = repoEnvio;
             RepoUsuario = repoUsuario;
+            RepoAgencia = repoAgencia;
         }
 
         public void Ejecutar(ComunDTO comunDTO)
         {
-            Usuario usuario = RepoUsuario.ObtenerPorEmail(comunDTO.Email);
+            Usuario cliente = RepoUsuario.ObtenerPorEmail(comunDTO.Email);
             Agencia agencia = RepoAgencia.FindById(comunDTO.AgenciaId);
-            Envio envio = EnvioMapper.ComunFromComunDTO(agencia, usuario);
+            Usuario empleado = RepoUsuario.ObtenerPorEmail(comunDTO.EmpleadoEmail);
+            Envio envio = EnvioMapper.ComunFromComunDTO(agencia, cliente, empleado, comunDTO.Peso);
+            envio.CodTracking = $"{comunDTO.AgenciaId}{comunDTO.Email.Substring(0,4)}";
             RepoEnvio.Add(envio);
         }
     }

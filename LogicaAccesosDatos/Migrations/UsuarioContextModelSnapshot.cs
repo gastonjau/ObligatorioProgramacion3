@@ -44,7 +44,7 @@ namespace LogicaAccesosDatos.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Agencias");
+                    b.ToTable("Agencias", (string)null);
                 });
 
             modelBuilder.Entity("LogicaNegocio.EntidadesNegocio.Envio", b =>
@@ -60,6 +60,7 @@ namespace LogicaAccesosDatos.Migrations
 
                     b.Property<string>("CodTracking")
                         .IsRequired()
+                        .ValueGeneratedOnAdd()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Discriminator")
@@ -87,7 +88,7 @@ namespace LogicaAccesosDatos.Migrations
 
                     b.HasIndex("EmpleadoId");
 
-                    b.ToTable("Envios");
+                    b.ToTable("Envios", (string)null);
 
                     b.HasDiscriminator().HasValue("Envio");
 
@@ -108,7 +109,7 @@ namespace LogicaAccesosDatos.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Roles");
+                    b.ToTable("Roles", (string)null);
                 });
 
             modelBuilder.Entity("LogicaNegocio.EntidadesNegocio.Usuario", b =>
@@ -130,7 +131,7 @@ namespace LogicaAccesosDatos.Migrations
 
                     b.HasIndex("RolId");
 
-                    b.ToTable("Usuarios");
+                    b.ToTable("Usuarios", (string)null);
                 });
 
             modelBuilder.Entity("LogicaNegocio.EntidadesNegocio.Comun", b =>
@@ -189,7 +190,7 @@ namespace LogicaAccesosDatos.Migrations
                         .OnDelete(DeleteBehavior.NoAction)
                         .IsRequired();
 
-                    b.OwnsOne("LogicaNegocio.EntidadesNegocio.UsuarioContrasenia", "Contrasenia", b1 =>
+                    b.OwnsOne("LogicaNegocio.EntidadesNegocio.Usuario.Contrasenia#LogicaNegocio.EntidadesNegocio.UsuarioContrasenia", "Contrasenia", b1 =>
                         {
                             b1.Property<int>("UsuarioId")
                                 .HasColumnType("int");
@@ -200,13 +201,13 @@ namespace LogicaAccesosDatos.Migrations
 
                             b1.HasKey("UsuarioId");
 
-                            b1.ToTable("Usuarios");
+                            b1.ToTable("Usuarios", (string)null);
 
                             b1.WithOwner()
                                 .HasForeignKey("UsuarioId");
                         });
 
-                    b.OwnsOne("LogicaNegocio.EntidadesNegocio.UsuarioEmail", "Email", b1 =>
+                    b.OwnsOne("LogicaNegocio.EntidadesNegocio.Usuario.Email#LogicaNegocio.EntidadesNegocio.UsuarioEmail", "Email", b1 =>
                         {
                             b1.Property<int>("UsuarioId")
                                 .HasColumnType("int");
@@ -217,7 +218,7 @@ namespace LogicaAccesosDatos.Migrations
 
                             b1.HasKey("UsuarioId");
 
-                            b1.ToTable("Usuarios");
+                            b1.ToTable("Usuarios", (string)null);
 
                             b1.WithOwner()
                                 .HasForeignKey("UsuarioId");
