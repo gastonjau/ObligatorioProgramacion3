@@ -54,6 +54,7 @@ namespace MVC.Controllers
                     if (retorno)
                     {
                         ViewBag.Mensaje = "Login correcto";
+						HttpContext.Session.SetString("email", loginDTO.Email);
                         return RedirectToAction("Index", "Home");
                     }
                     else

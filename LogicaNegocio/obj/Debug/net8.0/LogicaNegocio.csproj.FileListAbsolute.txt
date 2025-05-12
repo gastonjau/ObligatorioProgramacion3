@@ -61,3 +61,58 @@ D:\Users\Gaston\Desktop\7-4-2025\14-4-2025\342304-318802\LogicaNegocio\obj\Debug
 D:\Users\Gaston\Desktop\7-4-2025\14-4-2025\342304-318802\LogicaNegocio\obj\Debug\net8.0\refint\LogicaNegocio.dll
 D:\Users\Gaston\Desktop\7-4-2025\14-4-2025\342304-318802\LogicaNegocio\obj\Debug\net8.0\LogicaNegocio.pdb
 D:\Users\Gaston\Desktop\7-4-2025\14-4-2025\342304-318802\LogicaNegocio\obj\Debug\net8.0\ref\LogicaNegocio.dll
+<<<<<<< HEAD
+C:\Users\pietr\Desktop\obligatorio\342304-318802\LogicaNegocio\obj\Debug\net8.0\LogicaNegocio.csproj.AssemblyReference.cache
+C:\Users\pietr\Desktop\obligatorio\342304-318802\LogicaNegocio\obj\Debug\net8.0\LogicaNegocio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pietr\Desktop\obligatorio\342304-318802\LogicaNegocio\obj\Debug\net8.0\LogicaNegocio.AssemblyInfoInputs.cache
+C:\Users\pietr\Desktop\obligatorio\342304-318802\LogicaNegocio\obj\Debug\net8.0\LogicaNegocio.AssemblyInfo.cs
+C:\Users\pietr\Desktop\obligatorio\342304-318802\LogicaNegocio\obj\Debug\net8.0\LogicaNegocio.csproj.CoreCompileInputs.cache
+C:\Users\pietr\Desktop\obligatorio\342304-318802\LogicaNegocio\obj\Debug\net8.0\LogicaNegocio.sourcelink.json
+C:\Users\pietr\Desktop\obligatorio\342304-318802\LogicaNegocio\obj\Debug\net8.0\LogicaNegocio.dll
+C:\Users\pietr\Desktop\obligatorio\342304-318802\LogicaNegocio\obj\Debug\net8.0\refint\LogicaNegocio.dll
+C:\Users\pietr\Desktop\obligatorio\342304-318802\LogicaNegocio\obj\Debug\net8.0\LogicaNegocio.pdb
+C:\Users\pietr\Desktop\obligatorio\342304-318802\LogicaNegocio\bin\Debug\net8.0\LogicaNegocio.deps.json
+C:\Users\pietr\Desktop\obligatorio\342304-318802\LogicaNegocio\bin\Debug\net8.0\LogicaNegocio.dll
+C:\Users\pietr\Desktop\obligatorio\342304-318802\LogicaNegocio\bin\Debug\net8.0\LogicaNegocio.pdb
+C:\Users\pietr\Desktop\obligatorio\342304-318802\LogicaNegocio\obj\Debug\net8.0\ref\LogicaNegocio.dll
+D:\Users\Gaston\Desktop\pietrafesa05-05\03-05\342304-318802\LogicaNegocio\bin\Debug\net8.0\LogicaNegocio.deps.json
+D:\Users\Gaston\Desktop\pietrafesa05-05\03-05\342304-318802\LogicaNegocio\bin\Debug\net8.0\LogicaNegocio.dll
+D:\Users\Gaston\Desktop\pietrafesa05-05\03-05\342304-318802\LogicaNegocio\bin\Debug\net8.0\LogicaNegocio.pdb
+D:\Users\Gaston\Desktop\pietrafesa05-05\03-05\342304-318802\LogicaNegocio\obj\Debug\net8.0\LogicaNegocio.csproj.AssemblyReference.cache
+D:\Users\Gaston\Desktop\pietrafesa05-05\03-05\342304-318802\LogicaNegocio\obj\Debug\net8.0\LogicaNegocio.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\Gaston\Desktop\pietrafesa05-05\03-05\342304-318802\LogicaNegocio\obj\Debug\net8.0\LogicaNegocio.AssemblyInfoInputs.cache
+D:\Users\Gaston\Desktop\pietrafesa05-05\03-05\342304-318802\LogicaNegocio\obj\Debug\net8.0\LogicaNegocio.AssemblyInfo.cs
+D:\Users\Gaston\Desktop\pietrafesa05-05\03-05\342304-318802\LogicaNegocio\obj\Debug\net8.0\LogicaNegocio.csproj.CoreCompileInputs.cache
+D:\Users\Gaston\Desktop\pietrafesa05-05\03-05\342304-318802\LogicaNegocio\obj\Debug\net8.0\LogicaNegocio.sourcelink.json
+D:\Users\Gaston\Desktop\pietrafesa05-05\03-05\342304-318802\LogicaNegocio\obj\Debug\net8.0\LogicaNegocio.dll
+D:\Users\Gaston\Desktop\pietrafesa05-05\03-05\342304-318802\LogicaNegocio\obj\Debug\net8.0\refint\LogicaNegocio.dll
+D:\Users\Gaston\Desktop\pietrafesa05-05\03-05\342304-318802\LogicaNegocio\obj\Debug\net8.0\LogicaNegocio.pdb
+D:\Users\Gaston\Desktop\pietrafesa05-05\03-05\342304-318802\LogicaNegocio\obj\Debug\net8.0\ref\LogicaNegocio.dll
+C:\Users\pietr\Desktop\obligatorio gaston\342304-318802\LogicaNegocio\bin\Debug\net8.0\LogicaNegocio.deps.json
+C:\Users\pietr\Desktop\obligatorio gaston\342304-318802\LogicaNegocio\bin\Debug\net8.0\LogicaNegocio.dll
+C:\Users\pietr\Desktop\obligatorio gaston\342304-318802\LogicaNegocio\bin\Debug\net8.0\LogicaNegocio.pdb
+C:\Users\pietr\Desktop\obligatorio gaston\342304-318802\LogicaNegocio\obj\Debug\net8.0\LogicaNegocio.csproj.AssemblyReference.cache
+C:\Users\pietr\Desktop\obligatorio gaston\342304-318802\LogicaNegocio\obj\Debug\net8.0\LogicaNegocio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pietr\Desktop\obligatorio gaston\342304-318802\LogicaNegocio\obj\Debug\net8.0\LogicaNegocio.AssemblyInfoInputs.cache
+C:\Users\pietr\Desktop\obligatorio gaston\342304-318802\LogicaNegocio\obj\Debug\net8.0\LogicaNegocio.AssemblyInfo.cs
+C:\Users\pietr\Desktop\obligatorio gaston\342304-318802\LogicaNegocio\obj\Debug\net8.0\LogicaNegocio.csproj.CoreCompileInputs.cache
+C:\Users\pietr\Desktop\obligatorio gaston\342304-318802\LogicaNegocio\obj\Debug\net8.0\LogicaNegocio.sourcelink.json
+C:\Users\pietr\Desktop\obligatorio gaston\342304-318802\LogicaNegocio\obj\Debug\net8.0\LogicaNegocio.dll
+C:\Users\pietr\Desktop\obligatorio gaston\342304-318802\LogicaNegocio\obj\Debug\net8.0\refint\LogicaNegocio.dll
+C:\Users\pietr\Desktop\obligatorio gaston\342304-318802\LogicaNegocio\obj\Debug\net8.0\LogicaNegocio.pdb
+C:\Users\pietr\Desktop\obligatorio gaston\342304-318802\LogicaNegocio\obj\Debug\net8.0\ref\LogicaNegocio.dll
+C:\Users\pietr\OneDrive\Escritorio\Obligatorio p3\342304-318802\342304-318802\LogicaNegocio\bin\Debug\net8.0\LogicaNegocio.deps.json
+C:\Users\pietr\OneDrive\Escritorio\Obligatorio p3\342304-318802\342304-318802\LogicaNegocio\bin\Debug\net8.0\LogicaNegocio.dll
+C:\Users\pietr\OneDrive\Escritorio\Obligatorio p3\342304-318802\342304-318802\LogicaNegocio\bin\Debug\net8.0\LogicaNegocio.pdb
+C:\Users\pietr\OneDrive\Escritorio\Obligatorio p3\342304-318802\342304-318802\LogicaNegocio\obj\Debug\net8.0\LogicaNegocio.csproj.AssemblyReference.cache
+C:\Users\pietr\OneDrive\Escritorio\Obligatorio p3\342304-318802\342304-318802\LogicaNegocio\obj\Debug\net8.0\LogicaNegocio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pietr\OneDrive\Escritorio\Obligatorio p3\342304-318802\342304-318802\LogicaNegocio\obj\Debug\net8.0\LogicaNegocio.AssemblyInfoInputs.cache
+C:\Users\pietr\OneDrive\Escritorio\Obligatorio p3\342304-318802\342304-318802\LogicaNegocio\obj\Debug\net8.0\LogicaNegocio.AssemblyInfo.cs
+C:\Users\pietr\OneDrive\Escritorio\Obligatorio p3\342304-318802\342304-318802\LogicaNegocio\obj\Debug\net8.0\LogicaNegocio.csproj.CoreCompileInputs.cache
+C:\Users\pietr\OneDrive\Escritorio\Obligatorio p3\342304-318802\342304-318802\LogicaNegocio\obj\Debug\net8.0\LogicaNegocio.sourcelink.json
+C:\Users\pietr\OneDrive\Escritorio\Obligatorio p3\342304-318802\342304-318802\LogicaNegocio\obj\Debug\net8.0\LogicaNegocio.dll
+C:\Users\pietr\OneDrive\Escritorio\Obligatorio p3\342304-318802\342304-318802\LogicaNegocio\obj\Debug\net8.0\refint\LogicaNegocio.dll
+C:\Users\pietr\OneDrive\Escritorio\Obligatorio p3\342304-318802\342304-318802\LogicaNegocio\obj\Debug\net8.0\LogicaNegocio.pdb
+C:\Users\pietr\OneDrive\Escritorio\Obligatorio p3\342304-318802\342304-318802\LogicaNegocio\obj\Debug\net8.0\ref\LogicaNegocio.dll
+=======
+>>>>>>> origin/main

@@ -1,7 +1,11 @@
 using LogicaAccesosDatos;
 using LogicaAccesosDatos.Repositorios;
+using LogicaAplicacion.ImplementacionCasosUso.AgenciaCU;
+using LogicaAplicacion.ImplementacionCasosUso.EnvioCU;
 using LogicaAplicacion.ImplementacionCasosUso.Rol;
 using LogicaAplicacion.ImplementacionCasosUso.UsuarioCU;
+using LogicaAplicacion.InterfacesCasosUso.Agencia;
+using LogicaAplicacion.InterfacesCasosUso.Envio;
 using LogicaAplicacion.InterfacesCasosUso.Rol;
 using LogicaAplicacion.InterfacesCasosUso.Usuario;
 using LogicaNegocio.InterfacesRepositorios;
@@ -31,11 +35,31 @@ namespace MVC
 			builder.Services.AddScoped<IActualizarEmpleado, ActualizarEmpleado>();
 			builder.Services.AddScoped<IEliminarEmpleado, EliminarEmpleado>();
 
+<<<<<<< HEAD
+			builder.Services.AddScoped<IAltaComun, AltaComun>();
+			builder.Services.AddScoped<IRepositorioAgencia, RepositorioAgencia>();
+			builder.Services.AddScoped<IRepositorioEnvio, RepositorioEnvio>();
+			builder.Services.AddScoped<IListadoAgencia, ListadoAgencia>();
+
+            builder.Services.AddScoped<IListadoEnvio, ListadoEnvio>();
+            builder.Services.AddScoped<IActualizarEnvio, ActualizarEnvio>();
+=======
+>>>>>>> origin/main
 
             string cadenaConexion = builder.Configuration.GetConnectionString("cadenaConexion");
 			builder.Services.AddDbContext<UsuarioContext>(option => option.UseSqlServer(cadenaConexion));
-			
-			var app = builder.Build();
+
+
+            // Agrega servicios de sesión
+            builder.Services.AddDistributedMemoryCache(); // Necesario para mantener la sesión en memoria
+            builder.Services.AddSession(options =>
+            {
+                options.IdleTimeout = TimeSpan.FromMinutes(30); // tiempo de expiración
+                options.Cookie.HttpOnly = true;
+                options.Cookie.IsEssential = true;
+            });
+
+            var app = builder.Build();
 
 			// Configure the HTTP request pipeline.
 			if (!app.Environment.IsDevelopment())
@@ -49,6 +73,7 @@ namespace MVC
 			app.UseStaticFiles();
 
 			app.UseRouting();
+			app.UseSession();
 
 			app.UseAuthorization();
 

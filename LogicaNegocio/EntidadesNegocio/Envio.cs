@@ -1,5 +1,8 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -16,18 +19,15 @@ namespace LogicaNegocio.EntidadesNegocio
 		public string Estado { get; set; }
 		public string Etapas { get; set; }
 
-		public Comentario Comentario { get; set; }
+		public Envio() { }
 
-
-		public Envio (string codTracking, Usuario empleado, Usuario cliente, double pesoPaquete, string estado, string etapas, Comentario comentario)
+		public Envio(Usuario cliente, Usuario empleado, double peso)
 		{
-			CodTracking = codTracking;
-			Empleado = empleado;
 			Cliente = cliente;
-			PesoPaquete = pesoPaquete;
-			Estado = estado;
-			Etapas = etapas;
-			Comentario = comentario;
+			Estado = "EN_PROCESO";
+			Etapas = string.Empty;
+			Empleado = empleado;
+			PesoPaquete = peso;
 		}
 	}
 }

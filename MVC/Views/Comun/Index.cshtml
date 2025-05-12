@@ -1,0 +1,75 @@
+﻿@model IEnumerable<MVC.Models.Envio.ListarEnvioViewModel>
+
+@{
+	ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+	<a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+	<thead>
+		<tr>
+			<th>
+				@Html.DisplayNameFor(model => model.Id)
+			</th>
+			<th>
+				@Html.DisplayNameFor(model => model.CodTracking)
+			</th>
+			<th>
+				@Html.DisplayNameFor(model => model.Empleado)
+			</th>
+			<th>
+				@Html.DisplayNameFor(model => model.Cliente)
+			</th>
+			<th>
+				@Html.DisplayNameFor(model => model.PesoPaquete)
+			</th>
+			<th>
+				@Html.DisplayNameFor(model => model.Estado)
+			</th>
+			<th>
+				@Html.DisplayNameFor(model => model.Etapas)
+			</th>
+			<th></th>
+		</tr>
+	</thead>
+	<tbody>
+
+		@foreach (var item in Model)
+		{
+
+			if (item.Estado != "FINALIZADO")
+			{
+				<tr>
+					<td>
+						@Html.DisplayFor(modelItem => item.Id)
+					</td>
+					<td>
+						@Html.DisplayFor(modelItem => item.CodTracking)
+					</td>
+					<td>
+						@Html.DisplayFor(modelItem => item.Empleado)
+					</td>
+					<td>
+						@Html.DisplayFor(modelItem => item.Cliente)
+					</td>
+					<td>
+						@Html.DisplayFor(modelItem => item.PesoPaquete)
+					</td>
+					<td>
+						@Html.DisplayFor(modelItem => item.Estado)
+					</td>
+					<td>
+						@Html.DisplayFor(modelItem => item.Etapas)
+					</td>
+					<td>
+						@Html.ActionLink("Edit", "Edit", new { id = item.Id })
+					</td>
+				</tr>
+			}
+		}
+	</tbody>
+</table>

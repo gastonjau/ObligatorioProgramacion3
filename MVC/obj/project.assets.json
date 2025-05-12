@@ -7755,19 +7755,32 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Gaston\\.nuget\\packages\\": {}
+    "C:\\Users\\pietr\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
+      "projectUniqueName": "C:\\Users\\pietr\\OneDrive\\Escritorio\\Nueva carpeta\\342304-318802\\342304-318802\\MVC\\MVC.csproj",
+      "projectName": "MVC",
+      "projectPath": "C:\\Users\\pietr\\OneDrive\\Escritorio\\Nueva carpeta\\342304-318802\\342304-318802\\MVC\\MVC.csproj",
+      "packagesPath": "C:\\Users\\pietr\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\pietr\\OneDrive\\Escritorio\\Nueva carpeta\\342304-318802\\342304-318802\\MVC\\obj\\",
+=======
       "projectUniqueName": "D:\\Users\\Gaston\\Desktop\\7-4-2025\\14-4-2025\\342304-318802\\MVC\\MVC.csproj",
       "projectName": "MVC",
       "projectPath": "D:\\Users\\Gaston\\Desktop\\7-4-2025\\14-4-2025\\342304-318802\\MVC\\MVC.csproj",
       "packagesPath": "C:\\Users\\Gaston\\.nuget\\packages\\",
       "outputPath": "D:\\Users\\Gaston\\Desktop\\7-4-2025\\14-4-2025\\342304-318802\\MVC\\obj\\",
+>>>>>>> origin/main
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Gaston\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\pietr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7781,6 +7794,16 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
+<<<<<<< HEAD
+            "C:\\Users\\pietr\\OneDrive\\Escritorio\\Nueva carpeta\\342304-318802\\342304-318802\\Compartido\\Compartido.csproj": {
+              "projectPath": "C:\\Users\\pietr\\OneDrive\\Escritorio\\Nueva carpeta\\342304-318802\\342304-318802\\Compartido\\Compartido.csproj"
+            },
+            "C:\\Users\\pietr\\OneDrive\\Escritorio\\Nueva carpeta\\342304-318802\\342304-318802\\LogicaAplicacion\\LogicaAplicacion.csproj": {
+              "projectPath": "C:\\Users\\pietr\\OneDrive\\Escritorio\\Nueva carpeta\\342304-318802\\342304-318802\\LogicaAplicacion\\LogicaAplicacion.csproj"
+            },
+            "C:\\Users\\pietr\\OneDrive\\Escritorio\\Nueva carpeta\\342304-318802\\342304-318802\\LogicaNegocio\\LogicaNegocio.csproj": {
+              "projectPath": "C:\\Users\\pietr\\OneDrive\\Escritorio\\Nueva carpeta\\342304-318802\\342304-318802\\LogicaNegocio\\LogicaNegocio.csproj"
+=======
             "D:\\Users\\Gaston\\Desktop\\7-4-2025\\14-4-2025\\342304-318802\\Compartido\\Compartido.csproj": {
               "projectPath": "D:\\Users\\Gaston\\Desktop\\7-4-2025\\14-4-2025\\342304-318802\\Compartido\\Compartido.csproj"
             },
@@ -7789,6 +7812,7 @@
             },
             "D:\\Users\\Gaston\\Desktop\\7-4-2025\\14-4-2025\\342304-318802\\LogicaNegocio\\LogicaNegocio.csproj": {
               "projectPath": "D:\\Users\\Gaston\\Desktop\\7-4-2025\\14-4-2025\\342304-318802\\LogicaNegocio\\LogicaNegocio.csproj"
+>>>>>>> origin/main
             }
           }
         }
@@ -7801,8 +7825,9 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "direct"
-      }
+        "auditMode": "all"
+      },
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -7838,8 +7863,60 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "El paquete \"Azure.Identity\" 1.10.3 tiene una vulnerabilidad de gravedad moderada conocida, https://github.com/advisories/GHSA-m5vv-6r4h-3vj9",
+      "libraryId": "Azure.Identity",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "El paquete \"Azure.Identity\" 1.10.3 tiene una vulnerabilidad de gravedad moderada conocida, https://github.com/advisories/GHSA-wvxc-855f-jvrv",
+      "libraryId": "Azure.Identity",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "El paquete \"Microsoft.Identity.Client\" 4.56.0 tiene una vulnerabilidad de gravedad moderada conocida, https://github.com/advisories/GHSA-m5vv-6r4h-3vj9",
+      "libraryId": "Microsoft.Identity.Client",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1901",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "El paquete \"Microsoft.Identity.Client\" 4.56.0 tiene una vulnerabilidad de gravedad baja conocida, https://github.com/advisories/GHSA-x674-v45j-fwxw",
+      "libraryId": "Microsoft.Identity.Client",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "El paquete \"System.Text.Json\" 7.0.3 tiene una vulnerabilidad de gravedad alta conocida, https://github.com/advisories/GHSA-hh2w-p6rv-4g7w",
+      "libraryId": "System.Text.Json",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }

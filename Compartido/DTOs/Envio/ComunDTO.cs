@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Compartido.DTOs
+namespace Compartido.DTOs.Envio
 {
-	internal class ListadoEnvioDTO
+	public class ComunDTO : EnvioDTO
 	{
+		public int AgenciaId { get; set; }
 	}
 }
