@@ -10,5 +10,7 @@ namespace Compartido.DTOs.Envio
 	public class EnvioDTO
 	{
 		public string Email { get; set; }
+		public string EmpleadoEmail {  get; set; }
+		public double Peso {  get; set; }
 	}
 }

@@ -568,7 +568,7 @@
         },
         "runtime": {
           "Compartido.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -581,7 +581,7 @@
         },
         "runtime": {
           "LogicaAccesosDatos.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -592,7 +592,7 @@
         },
         "runtime": {
           "LogicaNegocio.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }

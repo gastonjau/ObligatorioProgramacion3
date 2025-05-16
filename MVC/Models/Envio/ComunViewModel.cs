@@ -7,7 +7,7 @@ namespace MVC.Models.Envio
     {
         public string Email { get; set; }
         public int AgenciaId { get; set; }
-
+        public double Peso { get; set; }
         public IEnumerable<DatoAgenciaViewModel> Agencias { get; set; } = new List<DatoAgenciaViewModel>();
     }
 }

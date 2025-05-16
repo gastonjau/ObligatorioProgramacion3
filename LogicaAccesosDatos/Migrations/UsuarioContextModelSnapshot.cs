@@ -74,10 +74,6 @@ namespace LogicaAccesosDatos.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Etapas")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<double>("PesoPaquete")
                         .HasColumnType("float");
 

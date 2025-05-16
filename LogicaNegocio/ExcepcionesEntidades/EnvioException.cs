@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace LogicaNegocio.ExcepcionesEntidades
 {
-	internal class EnvioException
+	public class EnvioException : Exception
 	{
+		public EnvioException() { }
+		public EnvioException(string message) : base(message) { }
+		public EnvioException(string message,  Exception innerException) : base(message, innerException) { }
 	}
 }

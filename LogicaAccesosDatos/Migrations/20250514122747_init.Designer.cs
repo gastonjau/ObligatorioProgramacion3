@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace LogicaAccesosDatos.Migrations
 {
     [DbContext(typeof(UsuarioContext))]
-    [Migration("20250503154805_AltaEnvio")]
-    partial class AltaEnvio
+    [Migration("20250514122747_init")]
+    partial class init
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -74,10 +74,6 @@ namespace LogicaAccesosDatos.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("Estado")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Etapas")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 

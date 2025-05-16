@@ -1,5 +1,6 @@
 ﻿using LogicaNegocio.EntidadesNegocio;
 using LogicaNegocio.InterfacesRepositorios;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -29,17 +30,17 @@ namespace LogicaAccesosDatos.Repositorios
 
         public IEnumerable<Envio> FindAll()
         {
-            throw new NotImplementedException();
+            return Contexto.Envios.Include(e => e.Empleado).Include(e => e.Cliente);
         }
 
         public Envio FindById(int id)
         {
-            throw new NotImplementedException();
+            return Contexto.Envios.Find(id);
         }
-
         public void Update(Envio item)
         {
-            throw new NotImplementedException();
+            Contexto.Envios.Update(item);
+            Contexto.SaveChanges();
         }
     }
 }

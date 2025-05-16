@@ -13,7 +13,7 @@ namespace LogicaNegocio.EntidadesNegocio
 		public Comun():base(){}
 
 
-		public Comun(Agencia agencia, Usuario cliente) : base(cliente) 
+		public Comun(Agencia agencia, Usuario cliente, Usuario empleado, double peso) : base(cliente, empleado, peso) 
 		{  
 			Agencia = agencia; 
 		}

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+Fw8fv3NcYE=",
+  "dgSpecHash": "gwgwfYfv+Ao=",
   "success": true,
-  "projectFilePath": "C:\\Users\\pietr\\Desktop\\obligatorio\\342304-318802\\LogicaAccesosDatos\\LogicaAccesosDatos.csproj",
+  "projectFilePath": "C:\\Users\\pietr\\Desktop\\unir funcionalidades\\urgente\\LogicaAccesosDatos\\LogicaAccesosDatos.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pietr\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\pietr\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

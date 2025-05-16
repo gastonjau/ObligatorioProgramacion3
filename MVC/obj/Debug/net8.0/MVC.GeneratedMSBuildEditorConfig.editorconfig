@@ -17,65 +17,81 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MVC
 build_property.RootNamespace = MVC
-build_property.ProjectDir = C:\Users\pietr\Desktop\obligatorio\342304-318802\MVC\
+build_property.ProjectDir = C:\Users\pietr\Desktop\unir funcionalidades\urgente\MVC\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\pietr\Desktop\obligatorio\342304-318802\MVC
+build_property.MSBuildProjectDirectory = C:\Users\pietr\Desktop\unir funcionalidades\urgente\MVC
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/pietr/Desktop/obligatorio/342304-318802/MVC/Views/Envio/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW52aW9cQ3JlYXRlLmNzaHRtbA==
+[C:/Users/pietr/Desktop/unir funcionalidades/urgente/MVC/Views/Comun/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tdW5cQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pietr/Desktop/obligatorio/342304-318802/MVC/Views/Home/Index.cshtml]
+[C:/Users/pietr/Desktop/unir funcionalidades/urgente/MVC/Views/Comun/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tdW5cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pietr/Desktop/unir funcionalidades/urgente/MVC/Views/Comun/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tdW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pietr/Desktop/unir funcionalidades/urgente/MVC/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pietr/Desktop/obligatorio/342304-318802/MVC/Views/Home/Privacy.cshtml]
+[C:/Users/pietr/Desktop/unir funcionalidades/urgente/MVC/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pietr/Desktop/obligatorio/342304-318802/MVC/Views/Login/Create.cshtml]
+[C:/Users/pietr/Desktop/unir funcionalidades/urgente/MVC/Views/Login/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pietr/Desktop/obligatorio/342304-318802/MVC/Views/Shared/Error.cshtml]
+[C:/Users/pietr/Desktop/unir funcionalidades/urgente/MVC/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pietr/Desktop/obligatorio/342304-318802/MVC/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/pietr/Desktop/unir funcionalidades/urgente/MVC/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pietr/Desktop/obligatorio/342304-318802/MVC/Views/Usuario/Create.cshtml]
+[C:/Users/pietr/Desktop/unir funcionalidades/urgente/MVC/Views/Urgente/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXJnZW50ZVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pietr/Desktop/unir funcionalidades/urgente/MVC/Views/Urgente/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXJnZW50ZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pietr/Desktop/unir funcionalidades/urgente/MVC/Views/Usuario/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pietr/Desktop/obligatorio/342304-318802/MVC/Views/Usuario/Delete.cshtml]
+[C:/Users/pietr/Desktop/unir funcionalidades/urgente/MVC/Views/Usuario/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pietr/Desktop/obligatorio/342304-318802/MVC/Views/Usuario/Edit.cshtml]
+[C:/Users/pietr/Desktop/unir funcionalidades/urgente/MVC/Views/Usuario/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pietr/Desktop/obligatorio/342304-318802/MVC/Views/Usuario/Index.cshtml]
+[C:/Users/pietr/Desktop/unir funcionalidades/urgente/MVC/Views/Usuario/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pietr/Desktop/obligatorio/342304-318802/MVC/Views/_ViewImports.cshtml]
+[C:/Users/pietr/Desktop/unir funcionalidades/urgente/MVC/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pietr/Desktop/obligatorio/342304-318802/MVC/Views/_ViewStart.cshtml]
+[C:/Users/pietr/Desktop/unir funcionalidades/urgente/MVC/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pietr/Desktop/obligatorio/342304-318802/MVC/Views/Shared/_Layout.cshtml]
+[C:/Users/pietr/Desktop/unir funcionalidades/urgente/MVC/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-q0a04yuu0e

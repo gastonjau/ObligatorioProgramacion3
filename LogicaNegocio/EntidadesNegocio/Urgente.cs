@@ -14,5 +14,9 @@ namespace LogicaNegocio.EntidadesNegocio
 
 		public Urgente() : base() { }
 
+		public Urgente(Usuario cliente, Usuario empleado, double peso, string dirPostal) : base (cliente, empleado, peso)
+		{
+			DirPostal = dirPostal;
+		}
 	}
 }

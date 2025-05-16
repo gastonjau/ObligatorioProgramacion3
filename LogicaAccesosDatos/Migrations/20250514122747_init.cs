@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace LogicaAccesosDatos.Migrations
 {
     /// <inheritdoc />
-    public partial class AltaEnvio : Migration
+    public partial class init : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -27,6 +27,40 @@ namespace LogicaAccesosDatos.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "Roles",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Nombre = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Roles", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Usuarios",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Datos = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Email_Valor = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Contrasenia_Valor = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    RolId = table.Column<int>(type: "int", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Usuarios", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_Usuarios_Roles_RolId",
+                        column: x => x.RolId,
+                        principalTable: "Roles",
+                        principalColumn: "Id");
+                });
+
+            migrationBuilder.CreateTable(
                 name: "Envios",
                 columns: table => new
                 {
@@ -37,7 +71,6 @@ namespace LogicaAccesosDatos.Migrations
                     ClienteId = table.Column<int>(type: "int", nullable: false),
                     PesoPaquete = table.Column<double>(type: "float", nullable: false),
                     Estado = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Etapas = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Discriminator = table.Column<string>(type: "nvarchar(8)", maxLength: 8, nullable: false),
                     AgenciaId = table.Column<int>(type: "int", nullable: true),
                     DirPostal = table.Column<string>(type: "nvarchar(max)", nullable: true),
@@ -80,6 +113,11 @@ namespace LogicaAccesosDatos.Migrations
                 name: "IX_Envios_EmpleadoId",
                 table: "Envios",
                 column: "EmpleadoId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Usuarios_RolId",
+                table: "Usuarios",
+                column: "RolId");
         }
 
         /// <inheritdoc />
@@ -90,6 +128,12 @@ namespace LogicaAccesosDatos.Migrations
 
             migrationBuilder.DropTable(
                 name: "Agencias");
+
+            migrationBuilder.DropTable(
+                name: "Usuarios");
+
+            migrationBuilder.DropTable(
+                name: "Roles");
         }
     }
 }
